@@ -61,6 +61,7 @@ namespace ConsoleApp9
             double[] best = new double[sub.Length];
             for (int i = 0; i < sub.Length; i++)
             {
+
                 double summ = 0;
                 foreach (string tab in students)
                 {
