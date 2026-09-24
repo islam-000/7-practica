@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Document uuid="53e78ff3-0acf-4c0c-982b-77ae10dac65f">
+	<Document uuid="f9fa427f-7ace-487e-b607-8658c44d3df5">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.СписаниеМатериалов" category="Object">
-				<xr:TypeId>6e7d7208-4162-4348-a7d8-8107d145d1a7</xr:TypeId>
-				<xr:ValueId>ac5d6ca2-5a5e-4a95-9831-d00a5939aef1</xr:ValueId>
+				<xr:TypeId>1eb9ae98-6be1-4382-8f35-4e9daff500d5</xr:TypeId>
+				<xr:ValueId>87698583-3461-4ba6-809c-f4cbb21fa38f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.СписаниеМатериалов" category="Ref">
-				<xr:TypeId>f1adceed-5288-4cfc-94bc-299c5b0bfdaa</xr:TypeId>
-				<xr:ValueId>b3076029-ed77-4c19-b91a-2cc3257d6521</xr:ValueId>
+				<xr:TypeId>081773b6-e303-4519-8aec-017624db9694</xr:TypeId>
+				<xr:ValueId>4de59871-bd73-4a20-83e2-f4221975ecfd</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.СписаниеМатериалов" category="Selection">
-				<xr:TypeId>a166a395-51c0-443b-bac5-41dab608deb2</xr:TypeId>
-				<xr:ValueId>1ac68da4-4c54-486c-b937-b3da447501f4</xr:ValueId>
+				<xr:TypeId>689c197e-da5d-421a-a00c-0b65f717d9b4</xr:TypeId>
+				<xr:ValueId>32613259-ba9f-4c8e-81d7-c6ec2c2dfee2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.СписаниеМатериалов" category="List">
-				<xr:TypeId>6890ffd1-d316-4f63-bc91-ba56e52c9f20</xr:TypeId>
-				<xr:ValueId>07d546f1-ba43-4308-83c6-49afc5735428</xr:ValueId>
+				<xr:TypeId>2d09b9ad-cab3-4dc5-8655-b723daefc93e</xr:TypeId>
+				<xr:ValueId>1a7f83b5-68c1-49bf-8194-e55c44631181</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.СписаниеМатериалов" category="Manager">
-				<xr:TypeId>799ff620-681c-4475-a274-cd48400d81de</xr:TypeId>
-				<xr:ValueId>5635138d-c8a0-45a0-a2f0-481c0789f3dd</xr:ValueId>
+				<xr:TypeId>59c418fe-391b-45ad-bca4-f91633e34d1c</xr:TypeId>
+				<xr:ValueId>1973b156-5003-4468-8df4-4544fcc8c332</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -57,7 +57,7 @@
 			<FullTextSearch>Use</FullTextSearch>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="b20e291e-2d75-4be2-8d0b-3708e92bfd09">
+			<Attribute uuid="affbed2a-b226-454b-afc0-065e58d658e2">
 				<Properties>
 					<Name>Ответственный</Name>
 					<Synonym>
@@ -72,7 +72,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="c9785f82-eba9-4ffc-9282-96d7de01b950">
+			<Attribute uuid="ffcf6c5f-88d4-4ada-b069-c14223dff845">
 				<Properties>
 					<Name>Причина</Name>
 					<Synonym>
@@ -91,15 +91,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="1c7a9860-453a-4f04-8f68-236c1f42624a">
+			<TabularSection uuid="91941ec8-e71b-4766-978e-687a0352f007">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.СписаниеМатериалов.Материалы" category="TabularSection">
-						<xr:TypeId>a70582f9-c650-4e8d-ad41-6b857a713df9</xr:TypeId>
-						<xr:ValueId>c495e760-9b34-4c12-9d01-0141a53398ea</xr:ValueId>
+						<xr:TypeId>0b5319e9-9ff5-4c36-a71f-5bdf365e50a7</xr:TypeId>
+						<xr:ValueId>673c2ffd-9297-46f5-b7f2-6879f19e430f</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DocumentTabularSectionRow.СписаниеМатериалов.Материалы" category="TabularSectionRow">
-						<xr:TypeId>5f400e9d-202a-4614-bf90-16e4f733e868</xr:TypeId>
-						<xr:ValueId>422e23ed-c05f-482c-a53a-40fe4d98a391</xr:ValueId>
+						<xr:TypeId>620a0479-5495-4863-87a9-8680e61c6518</xr:TypeId>
+						<xr:ValueId>23f299e0-1fd1-4ca0-8180-fc3f3d456ced</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -113,7 +113,7 @@
 					<Comment/>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="d39b2ffb-5067-4567-9896-9ab1c6174570">
+					<Attribute uuid="8a56c1c8-cdc7-43c5-bd54-ae46274c782d">
 						<Properties>
 							<Name>Материал</Name>
 							<Synonym>
@@ -128,7 +128,7 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="789ebe1c-d78c-44e9-8ecb-bd5f5e99ced2">
+					<Attribute uuid="69f684b9-f896-4f7a-9513-bcb6599d48a7">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>

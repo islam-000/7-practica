@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<AccumulationRegister uuid="242674d5-4718-429e-b6f7-3dbde7cbcc9d">
+	<AccumulationRegister uuid="d721f580-d256-49ba-a34d-f677aa230750">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.ОстаткиМатериалов" category="Record">
-				<xr:TypeId>db95c488-e47a-49dc-bc9b-353a14a3d644</xr:TypeId>
-				<xr:ValueId>ca0b9dd8-cd62-4284-a03c-55db29daf31e</xr:ValueId>
+				<xr:TypeId>7d026d52-b073-4bc1-98b6-077613955ce4</xr:TypeId>
+				<xr:ValueId>59c750b1-bd0d-4b49-b8ac-630cefd49c30</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterManager.ОстаткиМатериалов" category="Manager">
-				<xr:TypeId>88a925ff-1e29-4ae4-a679-87efc6d48035</xr:TypeId>
-				<xr:ValueId>ba9350ba-c112-4f3b-a356-21f90c8928e5</xr:ValueId>
+				<xr:TypeId>01753b87-7bf8-46b1-973e-a2af93b4d9de</xr:TypeId>
+				<xr:ValueId>23fde92c-ef82-4266-9179-7b85fd804955</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterSelection.ОстаткиМатериалов" category="Selection">
-				<xr:TypeId>69344d26-99d0-42e1-a32c-1ad238b3b6de</xr:TypeId>
-				<xr:ValueId>bda8cd97-79ad-4350-a2ed-0048dfd4aa96</xr:ValueId>
+				<xr:TypeId>8b4d8330-6867-4ab5-aab5-e82c8e7a7d42</xr:TypeId>
+				<xr:ValueId>1ebef8c2-2a11-46ac-a423-c0652781aae0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterList.ОстаткиМатериалов" category="List">
-				<xr:TypeId>fe209980-27f9-4a36-95bb-3336ce4617e1</xr:TypeId>
-				<xr:ValueId>b5c93fea-1019-4dba-80a4-13b7576a24dc</xr:ValueId>
+				<xr:TypeId>e0ec4050-9161-4750-9a6f-d90410463e30</xr:TypeId>
+				<xr:ValueId>12c09a7a-80e7-4ba9-ae4e-f068cd4ca88b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordSet.ОстаткиМатериалов" category="RecordSet">
-				<xr:TypeId>f37c97d1-92ec-4ad0-afca-2122772f5ed9</xr:TypeId>
-				<xr:ValueId>5e98de3a-9aa2-45d3-9e07-2744ba98ab86</xr:ValueId>
+				<xr:TypeId>e84e6695-d5bb-486e-aaa7-424c48f30482</xr:TypeId>
+				<xr:ValueId>e7f067dc-a429-42b7-9963-029576bac2cf</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordKey.ОстаткиМатериалов" category="RecordKey">
-				<xr:TypeId>4414abf4-ad15-43fd-b441-b9c151adf523</xr:TypeId>
-				<xr:ValueId>bf6d3dd8-2750-4c42-be73-e71033cbdc11</xr:ValueId>
+				<xr:TypeId>d48a2073-cd3a-441b-8ea8-fce66253ef38</xr:TypeId>
+				<xr:ValueId>d5adf086-b00b-43ec-92ec-d165bfed80df</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -43,7 +43,7 @@
 			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="8fc47495-4a6a-437a-88f6-b151f011ca1a">
+			<Resource uuid="0a1a1a71-e4b7-44dc-8648-6b8e1926a571">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -63,7 +63,7 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Resource uuid="f4c3cedb-6afb-45c5-8758-1b9cf58d2cb6">
+			<Resource uuid="48a2212a-74e9-41b7-b347-d76f4c82fe87">
 				<Properties>
 					<Name>Сумма</Name>
 					<Synonym>
@@ -83,7 +83,7 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Dimension uuid="687d47fa-a5e4-4e29-a137-4397fbaa03ca">
+			<Dimension uuid="957a9606-2440-4cfd-b349-1c0ddd5f5166">
 				<Properties>
 					<Name>Материал</Name>
 					<Synonym>

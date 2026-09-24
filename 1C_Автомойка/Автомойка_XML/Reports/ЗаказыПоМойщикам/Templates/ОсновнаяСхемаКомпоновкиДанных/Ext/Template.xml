@@ -170,7 +170,7 @@
 					<dcscor:value xsi:type="v8:StandardPeriod">
 						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
 					</dcscor:value>
-					<dcsset:userSettingID>bd2d5a9c-27e2-4fea-b873-d362c3006d90</dcsset:userSettingID>
+					<dcsset:userSettingID>236006df-d6d8-4127-ab86-440d36a3364b</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">

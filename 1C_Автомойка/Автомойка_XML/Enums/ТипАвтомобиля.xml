@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Enum uuid="8f405cf1-d1ee-4636-92a5-f4c03b9e77a3">
+	<Enum uuid="851b4ba2-8330-44fc-a19c-b591e1b48c28">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ТипАвтомобиля" category="Ref">
-				<xr:TypeId>91cabc4e-558c-4312-bacc-355788b35965</xr:TypeId>
-				<xr:ValueId>aa7baea3-57b5-46a9-a35d-bb02236bf32f</xr:ValueId>
+				<xr:TypeId>102773fb-0136-4682-afe8-97940809ea62</xr:TypeId>
+				<xr:ValueId>6a94448c-f316-40bd-8b50-813dbd7b395f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ТипАвтомобиля" category="Manager">
-				<xr:TypeId>c3730fce-912d-45a1-a3e3-31cf3abfa93a</xr:TypeId>
-				<xr:ValueId>934b2d10-3adf-4f02-b0c9-767c76920db1</xr:ValueId>
+				<xr:TypeId>ede77a92-423e-43db-95df-add650349c88</xr:TypeId>
+				<xr:ValueId>795830d9-4729-4eeb-a72e-f693827b70e7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ТипАвтомобиля" category="List">
-				<xr:TypeId>6857e44d-1e0b-4903-9930-c5aa4d08a5bd</xr:TypeId>
-				<xr:ValueId>49bde6be-a7e8-4bd2-9f76-f57c6d962b4f</xr:ValueId>
+				<xr:TypeId>58b7e8d8-288a-4859-b0fc-0aeb11591b47</xr:TypeId>
+				<xr:ValueId>4e415a5a-bdce-4584-843a-13b1e9e9fac7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -29,7 +29,7 @@
 			<ChoiceMode>BothWays</ChoiceMode>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="2628e677-4f3e-4807-b7e9-aabf0df7bcf8">
+			<EnumValue uuid="b24fcf8a-d69f-43a5-9efb-9a80f475d85b">
 				<Properties>
 					<Name>Легковой</Name>
 					<Synonym>
@@ -41,7 +41,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="5ea598a8-abbf-40d6-b708-2d7a83180a36">
+			<EnumValue uuid="ad768091-bc21-40d1-a426-efd6f4b1e863">
 				<Properties>
 					<Name>Внедорожник</Name>
 					<Synonym>
@@ -53,7 +53,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="8a8aefe0-58ac-4430-8111-ece17308540b">
+			<EnumValue uuid="bea873cc-fd6f-4814-be21-b8ff51c255df">
 				<Properties>
 					<Name>Кроссовер</Name>
 					<Synonym>
@@ -65,7 +65,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="594a764c-bc42-4f91-8eb8-a39281beb67d">
+			<EnumValue uuid="fbf95c9b-11b8-4569-ba7f-bedfe2ad513a">
 				<Properties>
 					<Name>Микроавтобус</Name>
 					<Synonym>
@@ -77,7 +77,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="fd6277f8-e0cd-4b55-b9ef-56393a30f5dc">
+			<EnumValue uuid="13b0c1a3-63af-4a5b-90f0-32bf75d82160">
 				<Properties>
 					<Name>Грузовой</Name>
 					<Synonym>

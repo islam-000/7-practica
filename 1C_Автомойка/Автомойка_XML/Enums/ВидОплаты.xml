@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Enum uuid="d3ea432f-b918-4de8-a175-d629a2da4307">
+	<Enum uuid="9ea3f400-7c7c-4af5-8d1d-848c7caf5ba2">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.ВидОплаты" category="Ref">
-				<xr:TypeId>d38b2c58-03dc-4505-aab5-6a88e72eef44</xr:TypeId>
-				<xr:ValueId>06d473b5-d398-425b-a03e-d819d65a2cb8</xr:ValueId>
+				<xr:TypeId>7c52fe08-01e5-488a-8ad3-5126a0a06589</xr:TypeId>
+				<xr:ValueId>96648e77-eeb4-446e-90cb-9652f2b9830f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.ВидОплаты" category="Manager">
-				<xr:TypeId>591712a6-fe14-411a-99fb-3ffc20dc273d</xr:TypeId>
-				<xr:ValueId>50f40d69-4180-467e-bbe1-159b7c66dc80</xr:ValueId>
+				<xr:TypeId>094e7568-8f89-4053-bbf7-410876d802ce</xr:TypeId>
+				<xr:ValueId>53394e0a-115f-4433-a10f-1ae9172cfc47</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.ВидОплаты" category="List">
-				<xr:TypeId>d74b2368-9509-43f5-bb3f-d1ebfd60bfcc</xr:TypeId>
-				<xr:ValueId>8f9abab9-5daf-4157-ad43-77e285de9de9</xr:ValueId>
+				<xr:TypeId>e889dd00-c4fc-4663-99b6-b552392a074e</xr:TypeId>
+				<xr:ValueId>73d60611-94fb-4a72-8f2c-2983ee121612</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -29,7 +29,7 @@
 			<ChoiceMode>BothWays</ChoiceMode>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="f7cdb6b0-ec24-4415-868a-3333c38f9643">
+			<EnumValue uuid="24f8173a-7da6-4cd2-b632-38c0b0d9d486">
 				<Properties>
 					<Name>Наличные</Name>
 					<Synonym>
@@ -41,7 +41,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="3a8553c6-47f1-4934-88a0-95d56412d106">
+			<EnumValue uuid="6bba2262-5770-4c34-a707-7811d8444f75">
 				<Properties>
 					<Name>БанковскаяКарта</Name>
 					<Synonym>
@@ -53,7 +53,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="e201d9e2-8252-42a4-9ff2-18547b2656bc">
+			<EnumValue uuid="16949758-2090-45b6-bf87-4bf513124652">
 				<Properties>
 					<Name>Перевод</Name>
 					<Synonym>

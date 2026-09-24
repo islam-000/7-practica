@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<InformationRegister uuid="43fabb4d-41b8-4028-b193-c0f1bc335f50">
+	<InformationRegister uuid="409800e4-f34b-4cd1-b2fb-dd0b1edbcebd">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.ЦеныУслуг" category="Record">
-				<xr:TypeId>db200dd8-d2c4-49c0-b969-ebe15531e462</xr:TypeId>
-				<xr:ValueId>a5c65ada-7df3-4f1e-ba33-9345af9c75a7</xr:ValueId>
+				<xr:TypeId>dadf58ef-5606-41b6-887a-6e74c48022d7</xr:TypeId>
+				<xr:ValueId>2621082f-434f-41d0-b320-26156ac411ac</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.ЦеныУслуг" category="Manager">
-				<xr:TypeId>b69dff64-d444-4f0a-a030-fdb9a2f9f151</xr:TypeId>
-				<xr:ValueId>d38fc6e8-2f8c-4e45-94f6-02eea3bd425f</xr:ValueId>
+				<xr:TypeId>8710acfe-4ad3-47a7-8af9-e35ad79ae849</xr:TypeId>
+				<xr:ValueId>4bd3f6b4-5f46-4a84-be57-c84ab4dd66c2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.ЦеныУслуг" category="Selection">
-				<xr:TypeId>3cdd63f6-434b-4316-96af-af02aa1d51a2</xr:TypeId>
-				<xr:ValueId>809e6030-4f0d-4b55-a1d0-73de2de200b2</xr:ValueId>
+				<xr:TypeId>6cb3ac44-87e5-476f-bd6c-f6170893052b</xr:TypeId>
+				<xr:ValueId>378ab45e-63ee-4660-8dbe-4356fed85c64</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.ЦеныУслуг" category="List">
-				<xr:TypeId>c9bdeafd-fe36-4c98-aa54-76c1e374d727</xr:TypeId>
-				<xr:ValueId>a8cc71af-34ca-4cc8-adbd-fe02cbb043bd</xr:ValueId>
+				<xr:TypeId>925ca4bb-8a76-462c-9d5b-ce997f2b3c78</xr:TypeId>
+				<xr:ValueId>8b0d7bc4-8709-424c-bcf0-7f428f8d571f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.ЦеныУслуг" category="RecordSet">
-				<xr:TypeId>48573178-70a7-4ee2-a318-9c383f876208</xr:TypeId>
-				<xr:ValueId>5bdc7dd6-ff60-4be4-9df5-e63f35ace5b1</xr:ValueId>
+				<xr:TypeId>f18332f5-b8b9-4c62-8c99-2fc6c9f5f3ba</xr:TypeId>
+				<xr:ValueId>f6448bf4-e112-432d-8678-706751a547ac</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.ЦеныУслуг" category="RecordKey">
-				<xr:TypeId>b0442867-9aa6-442e-96b6-def2810c9e00</xr:TypeId>
-				<xr:ValueId>055d0c72-8d28-4eff-ab8f-bfc54a6ce746</xr:ValueId>
+				<xr:TypeId>a6592254-79b1-4c14-9088-2610a33b3b79</xr:TypeId>
+				<xr:ValueId>ec6433f2-0e3d-47f2-9bf3-7d28b483bf7d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.ЦеныУслуг" category="RecordManager">
-				<xr:TypeId>789e839f-5b3e-48f2-a124-b8e2c0ab8609</xr:TypeId>
-				<xr:ValueId>d3d03020-7abe-4434-9438-13134dd66f69</xr:ValueId>
+				<xr:TypeId>cca9c3bf-07ff-4930-b6ec-b058391acbff</xr:TypeId>
+				<xr:ValueId>54e51ff8-23e4-4027-81bc-32f30834584f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -51,7 +51,7 @@
 			<EnableTotalsSliceLast>false</EnableTotalsSliceLast>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="60b42110-e47b-455e-bbd0-5624255e1923">
+			<Resource uuid="3d3a38eb-35e8-4862-8d71-485cad6bc625">
 				<Properties>
 					<Name>Цена</Name>
 					<Synonym>
@@ -71,7 +71,7 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Dimension uuid="89119250-66b3-4684-a1a8-f6f52ab5909b">
+			<Dimension uuid="d208368c-046e-45a5-915f-4b62fc82f59d">
 				<Properties>
 					<Name>Услуга</Name>
 					<Synonym>

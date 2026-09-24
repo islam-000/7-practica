@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Enum uuid="ae758ba0-e60f-4e84-b46c-346c8d33cf61">
+	<Enum uuid="2067bbea-78bd-4e16-be6c-57ad532624cd">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.Пол" category="Ref">
-				<xr:TypeId>ad3043fe-3c66-4dd8-a7ae-6c80e9ddecdd</xr:TypeId>
-				<xr:ValueId>3e277a6f-5b38-441e-b492-f0467021354f</xr:ValueId>
+				<xr:TypeId>845ece4c-2338-4442-a4b3-9af482d7d8ff</xr:TypeId>
+				<xr:ValueId>bbf95885-6270-4847-ac82-762a7e13055b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.Пол" category="Manager">
-				<xr:TypeId>858be78f-012e-4b80-9fb6-875e7bad7d66</xr:TypeId>
-				<xr:ValueId>b272a61e-fc76-42da-b906-043e3c6f183f</xr:ValueId>
+				<xr:TypeId>0a1f054b-7707-4159-a1bb-95a104407069</xr:TypeId>
+				<xr:ValueId>cdb1fdff-115f-4d03-bbaf-ef884ac46eb5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.Пол" category="List">
-				<xr:TypeId>36f45341-f39e-43e2-a4e6-736e6a15e264</xr:TypeId>
-				<xr:ValueId>d8e0f314-a99b-4ec6-b93d-3fc8f0515405</xr:ValueId>
+				<xr:TypeId>e2b479a6-9d93-44fd-a1a4-3d8de1a4282c</xr:TypeId>
+				<xr:ValueId>885e5c20-0393-475e-818a-39180e50f95f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -29,7 +29,7 @@
 			<ChoiceMode>BothWays</ChoiceMode>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="f754a40f-6334-4058-86aa-e02d2b192af1">
+			<EnumValue uuid="ebc6cc4b-b1e7-4df4-b395-5a3a4625b666">
 				<Properties>
 					<Name>Мужской</Name>
 					<Synonym>
@@ -41,7 +41,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="3784693f-a7e4-4da6-bade-e4d1d36bd991">
+			<EnumValue uuid="e92fa5c7-9a7e-439c-aad8-b091832c9461">
 				<Properties>
 					<Name>Женский</Name>
 					<Synonym>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="1be55fc5-df02-4fb5-9c75-630134be3861">
+	<Catalog uuid="50f4721c-835e-4a99-93f1-005abfeb2e2d">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Автомобили" category="Object">
-				<xr:TypeId>ac6692fb-f2aa-4feb-aa55-7e2722494ac6</xr:TypeId>
-				<xr:ValueId>81c14574-fe5e-4ec9-965a-41b98c8f9ba9</xr:ValueId>
+				<xr:TypeId>687ea181-d121-4e81-9520-26b2361d065e</xr:TypeId>
+				<xr:ValueId>448e6f60-8f51-4945-8895-5c3db91b548b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Автомобили" category="Ref">
-				<xr:TypeId>d5385fc8-ddae-4c73-b311-f493fddcc34d</xr:TypeId>
-				<xr:ValueId>2d9e56ac-1206-43b3-8bc7-d75700c31e76</xr:ValueId>
+				<xr:TypeId>abfca4bd-9508-4a6e-9c54-a976c1076159</xr:TypeId>
+				<xr:ValueId>d776fb6b-7af7-41e7-9f6d-b1ca7bbf2f0c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Автомобили" category="Selection">
-				<xr:TypeId>85576e8d-6d25-4a18-8ecb-bcdfaa2df687</xr:TypeId>
-				<xr:ValueId>fec71880-4296-4c12-8a40-19235deb4662</xr:ValueId>
+				<xr:TypeId>f84cae99-97d0-4866-be73-c83d06940200</xr:TypeId>
+				<xr:ValueId>c75f5b97-39bd-4451-9797-5f809b287ca6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Автомобили" category="List">
-				<xr:TypeId>046db153-7e7c-409b-a525-d1cae06519cb</xr:TypeId>
-				<xr:ValueId>bada9c3f-502f-45de-9bf1-28efca53c364</xr:ValueId>
+				<xr:TypeId>5dbd62bb-323b-4a3d-b3a1-6c911564fdcc</xr:TypeId>
+				<xr:ValueId>84dc599d-4669-4ca8-8d90-177b574d7228</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Автомобили" category="Manager">
-				<xr:TypeId>e14bcd2f-0106-432e-a34b-b47336923975</xr:TypeId>
-				<xr:ValueId>49703205-6450-4e62-b410-5cba3c1fad43</xr:ValueId>
+				<xr:TypeId>a1d77840-a8fa-4d95-ae6f-7d4456f67b72</xr:TypeId>
+				<xr:ValueId>3d4ec264-65cb-433a-abac-d9277143fb09</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="d156b2c7-3c2c-4eb7-9b39-b86290d48645">
+			<Attribute uuid="5b304c5a-a34c-4240-8a79-236d136f9a8a">
 				<Properties>
 					<Name>Клиент</Name>
 					<Synonym>
@@ -73,7 +73,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8a4f6078-b07b-4bea-b98b-faf261b4c4c2">
+			<Attribute uuid="2fba8094-2377-435b-adcf-b4ba8c1e8994">
 				<Properties>
 					<Name>ГосНомер</Name>
 					<Synonym>
@@ -92,7 +92,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a3bce6e7-f23e-4f1d-96be-5ebd5a9ed45b">
+			<Attribute uuid="6683005b-a3be-4ec1-8874-5de5a9ad93f8">
 				<Properties>
 					<Name>Марка</Name>
 					<Synonym>
@@ -111,7 +111,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a8080010-cef5-444e-98fe-7cdf08c3de7d">
+			<Attribute uuid="4197ea85-3727-418a-8b1e-a15ddd7a41b5">
 				<Properties>
 					<Name>Модель</Name>
 					<Synonym>
@@ -130,7 +130,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="80e9561a-a541-4a4c-bb88-6b4274f44e26">
+			<Attribute uuid="40ca2b8a-8d9e-48aa-bafe-90e7dbe95fb2">
 				<Properties>
 					<Name>ТипАвтомобиля</Name>
 					<Synonym>
@@ -145,7 +145,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d591bc3e-3547-429e-9abd-03421e3647fc">
+			<Attribute uuid="556d058f-2216-4beb-87a3-ba33bd2f1920">
 				<Properties>
 					<Name>Цвет</Name>
 					<Synonym>
@@ -164,7 +164,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="371d8af9-847f-4596-adb4-7b9454ec3911">
+			<Attribute uuid="a3a0f428-f239-4451-854b-278c44bb09a1">
 				<Properties>
 					<Name>ГодВыпуска</Name>
 					<Synonym>
@@ -184,7 +184,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9240bb4a-0a8d-4cff-854b-1e6a8909029d">
+			<Attribute uuid="4b54df43-4672-46e7-8247-a8f6858b00b4">
 				<Properties>
 					<Name>VIN</Name>
 					<Synonym>

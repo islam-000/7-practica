@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<AccumulationRegister uuid="dc4c8c71-03ad-4115-9aac-0e60dfdf763d">
+	<AccumulationRegister uuid="dd8a156c-11bc-450a-ac8b-f6064d940b07">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.Выручка" category="Record">
-				<xr:TypeId>aae5873b-8077-45dc-bee4-ff1e9499eba0</xr:TypeId>
-				<xr:ValueId>4bbda1b5-4844-44a0-a48e-2614f4f9da6c</xr:ValueId>
+				<xr:TypeId>931fba97-7d8c-48d2-b96f-48cf62d841f9</xr:TypeId>
+				<xr:ValueId>9b8f78a4-5bf9-4de9-9a46-9be51db1bcd6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterManager.Выручка" category="Manager">
-				<xr:TypeId>2862794c-e232-48a1-9fbc-b7b6ab582693</xr:TypeId>
-				<xr:ValueId>96d3597d-1dd5-442f-b1f0-092e58265583</xr:ValueId>
+				<xr:TypeId>be1a3a76-4381-4926-a12e-2e16b88ebb67</xr:TypeId>
+				<xr:ValueId>66b58f34-dac8-4065-8e2a-298e4573d9ec</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterSelection.Выручка" category="Selection">
-				<xr:TypeId>793764b7-773b-4729-965b-c4c517481ba3</xr:TypeId>
-				<xr:ValueId>7a291584-a8b2-49a2-bca2-b54eee85524c</xr:ValueId>
+				<xr:TypeId>9b8d11f7-3b30-412a-8437-ae147375e1ac</xr:TypeId>
+				<xr:ValueId>39e6c9c1-10ab-4ea1-a098-ef3c0574bb4b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterList.Выручка" category="List">
-				<xr:TypeId>c1f5908a-12e3-4b83-97dd-d04e09e4b88c</xr:TypeId>
-				<xr:ValueId>b267c535-6f86-4ee5-8994-f7c3f35ba1a3</xr:ValueId>
+				<xr:TypeId>75672286-6962-4979-b2a9-01786230eddd</xr:TypeId>
+				<xr:ValueId>f19ae345-1c9a-4fd9-b2b1-5c995a748337</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordSet.Выручка" category="RecordSet">
-				<xr:TypeId>509e89e1-1790-47e3-bb24-e60018d2109d</xr:TypeId>
-				<xr:ValueId>24f0d830-0634-4e39-a384-5d9afa8883df</xr:ValueId>
+				<xr:TypeId>bd32867f-b99c-47f9-adbd-6d9b827ab3db</xr:TypeId>
+				<xr:ValueId>48a9fd65-f1e7-4c7c-b033-d4da3f0a287a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordKey.Выручка" category="RecordKey">
-				<xr:TypeId>fb770cba-8f3f-442b-91e6-a3e497294626</xr:TypeId>
-				<xr:ValueId>a7c7c372-a243-4b7b-9453-8fa5af04865c</xr:ValueId>
+				<xr:TypeId>b8008c66-5902-4ad8-b1c5-730dc5b0a448</xr:TypeId>
+				<xr:ValueId>d15b9fba-b175-4dbe-891b-feaf422c02ac</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -43,7 +43,7 @@
 			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="510a2859-9ee7-4971-8028-0afa339bca02">
+			<Resource uuid="7d3dbcc2-89a1-4966-9618-7491d4b6bf1e">
 				<Properties>
 					<Name>Сумма</Name>
 					<Synonym>
@@ -63,7 +63,7 @@
 					</Type>
 				</Properties>
 			</Resource>
-			<Dimension uuid="95446894-3854-4caa-acbb-a529e9543eea">
+			<Dimension uuid="0f067a8c-0b38-47b5-ae68-8d79974481c8">
 				<Properties>
 					<Name>Клиент</Name>
 					<Synonym>
@@ -78,7 +78,7 @@
 					</Type>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="7392b439-2b78-45f0-88f7-93abff77fdbe">
+			<Dimension uuid="997a54fd-a720-420a-92d6-7794faa9b1a9">
 				<Properties>
 					<Name>ВидОплаты</Name>
 					<Synonym>
