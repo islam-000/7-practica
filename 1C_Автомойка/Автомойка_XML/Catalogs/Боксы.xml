@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="88be9d62-dfab-48bb-b6c0-5ca8a3073c8b">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="9352cc23-1fcb-437f-a58f-594c001e0fe3">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Боксы" category="Object">
-				<xr:TypeId>034fe95b-9d8c-4d8a-8afc-3f9b7a3a08c1</xr:TypeId>
-				<xr:ValueId>7877928f-cfa4-47b5-a9c6-c9384610a965</xr:ValueId>
+				<xr:TypeId>b647826a-c8dc-46a4-9902-2a26df0c4f16</xr:TypeId>
+				<xr:ValueId>41873b81-a175-46ab-8f48-6d1b2883e67f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Боксы" category="Ref">
-				<xr:TypeId>1604ce22-3e9e-4a9a-9a90-cd8af26c4bd3</xr:TypeId>
-				<xr:ValueId>26b8f769-86a0-48b5-bb21-1f8f8eed31cc</xr:ValueId>
+				<xr:TypeId>ca056f9f-48e3-46b2-9deb-691a10b06454</xr:TypeId>
+				<xr:ValueId>6035fe99-d650-4fd3-9642-1d7e6cb2e288</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Боксы" category="Selection">
-				<xr:TypeId>eb72f118-160e-4d73-9f55-868878d6cad7</xr:TypeId>
-				<xr:ValueId>f5c93415-f532-44a5-8422-ef7f6de92c86</xr:ValueId>
+				<xr:TypeId>764f4981-d49d-46f7-8756-1397f30a5023</xr:TypeId>
+				<xr:ValueId>32a5d1d7-6132-462e-9678-97347a76d958</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Боксы" category="List">
-				<xr:TypeId>25ef1889-1dcf-4a51-afc1-19165a373219</xr:TypeId>
-				<xr:ValueId>0a9e1fb2-540d-4ce6-bd1b-d39f5ede71ec</xr:ValueId>
+				<xr:TypeId>f201e882-5cdc-4a6c-a4e5-9b94471b9e63</xr:TypeId>
+				<xr:ValueId>1bd40cf0-32a6-4ea2-96b8-fd1055869e3d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Боксы" category="Manager">
-				<xr:TypeId>eb6a1963-b2b6-42a6-b0e6-61506aff8c58</xr:TypeId>
-				<xr:ValueId>653c1302-e9ec-4f52-8ca2-2e8519d7fc90</xr:ValueId>
+				<xr:TypeId>07560a00-7a42-45bf-8a8e-f5f04ccedcaa</xr:TypeId>
+				<xr:ValueId>ed605a94-43b9-443a-8c44-f0ea476100ea</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="5f51b640-478a-466d-9754-b3e94accf19b">
+			<Attribute uuid="ef3b915a-3950-4fbf-8c0a-4d7bdd283154">
 				<Properties>
 					<Name>НомерБокса</Name>
 					<Synonym>

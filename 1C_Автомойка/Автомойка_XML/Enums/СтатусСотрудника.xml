@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Enum uuid="93902176-5ba4-4a81-909d-cd1ff218ee4d">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Enum uuid="aec28a16-64a9-4d05-89d3-e2ee14e69c47">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.СтатусСотрудника" category="Ref">
-				<xr:TypeId>fa5bea3e-a31d-49d9-97db-70931d6db049</xr:TypeId>
-				<xr:ValueId>2a4f9e16-56ad-4ad1-9f21-63aa7bdf800b</xr:ValueId>
+				<xr:TypeId>eb806b6c-c8dc-47d1-94e7-0f3e0476bd7c</xr:TypeId>
+				<xr:ValueId>28296cb5-9a1e-4785-b10a-4643ca0949b6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.СтатусСотрудника" category="Manager">
-				<xr:TypeId>e31282e2-d077-48d7-9979-14c708d15d08</xr:TypeId>
-				<xr:ValueId>41079bd5-602d-4bbe-a71a-d2e061500085</xr:ValueId>
+				<xr:TypeId>ab1f4fc6-1b92-4f0c-9cd4-5238f0d4dbe9</xr:TypeId>
+				<xr:ValueId>4ea2dbd2-ae8e-4cff-8623-6599e80b46e0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.СтатусСотрудника" category="List">
-				<xr:TypeId>58b157c9-6a9d-4cbd-ada7-24e3f647c4e8</xr:TypeId>
-				<xr:ValueId>577ab9a3-e7bf-404f-9e5c-a02f6bbce3dd</xr:ValueId>
+				<xr:TypeId>e644f0ed-746f-491e-bed1-11980d6c7863</xr:TypeId>
+				<xr:ValueId>35999a0f-d239-4be6-8b97-11ef6595cead</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -29,7 +29,7 @@
 			<ChoiceMode>BothWays</ChoiceMode>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="193cfaad-59fe-4a1f-842f-e5b364bdc737">
+			<EnumValue uuid="d99d0e81-649e-421b-9ba3-9d2a23f8cab1">
 				<Properties>
 					<Name>ВРаботе</Name>
 					<Synonym>
@@ -41,7 +41,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="0539bce9-780f-4165-9bf5-c70c883945c2">
+			<EnumValue uuid="1f2edd64-f3ed-4a4f-a9ec-610e3afb39fd">
 				<Properties>
 					<Name>ВОтпуске</Name>
 					<Synonym>
@@ -53,7 +53,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="0bfd5b22-2404-4208-9be8-5347242abf26">
+			<EnumValue uuid="d4f7965e-6164-4cc1-b709-40afef388078">
 				<Properties>
 					<Name>Уволен</Name>
 					<Synonym>

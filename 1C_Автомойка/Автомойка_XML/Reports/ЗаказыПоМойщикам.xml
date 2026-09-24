@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Report uuid="6a66a265-9212-40fb-b0d5-14dbe61ae7fa">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Report uuid="612d1106-b4f5-4fd9-a330-8e7bc2120c35">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.ЗаказыПоМойщикам" category="Object">
-				<xr:TypeId>7a5dda73-381a-49e6-9a05-23aabe14d69e</xr:TypeId>
-				<xr:ValueId>2cce7ea1-9512-497f-bffc-565959f46244</xr:ValueId>
+				<xr:TypeId>e17f3fd3-6c15-4ae2-9097-b87d076769f9</xr:TypeId>
+				<xr:ValueId>3305081a-7ddb-4f92-87b9-656f49cf51d2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.ЗаказыПоМойщикам" category="Manager">
-				<xr:TypeId>7c1001eb-7a99-4320-898a-bc321559f95a</xr:TypeId>
-				<xr:ValueId>8bf7f06b-fd8f-45e9-b7f8-45b3933e9bef</xr:ValueId>
+				<xr:TypeId>e03134d5-1f03-4bdd-a0f4-b1ebc6511ddc</xr:TypeId>
+				<xr:ValueId>a4540827-7d6a-4bf5-9151-ea922f14597e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="7f4ee37c-e107-4acc-bb5c-987598477756">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="4f43c04e-d13a-4401-99b3-a1e0c9a19a32">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Клиенты" category="Object">
-				<xr:TypeId>42a737ba-4947-45fb-9e57-5cc8a8662737</xr:TypeId>
-				<xr:ValueId>cdb504e9-0dfa-4467-bfdf-6676d026c77d</xr:ValueId>
+				<xr:TypeId>9c9cfc1e-8720-4249-b25e-2ee524d6fcba</xr:TypeId>
+				<xr:ValueId>d43caf7d-c0ff-473b-9b4b-83e386a60c33</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Клиенты" category="Ref">
-				<xr:TypeId>c5972687-0007-4056-ac52-1aaa7656a581</xr:TypeId>
-				<xr:ValueId>474e9933-8782-459a-8009-502d1f55b704</xr:ValueId>
+				<xr:TypeId>cedd3448-925e-41bf-85a9-77a3e20be7f2</xr:TypeId>
+				<xr:ValueId>2ed55a2e-803e-48dd-9123-1523019ec3ba</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Клиенты" category="Selection">
-				<xr:TypeId>6097bbbc-42c9-45a8-81c9-28c1f43063fd</xr:TypeId>
-				<xr:ValueId>18013271-59dd-455b-90cf-91cbdc75a7ba</xr:ValueId>
+				<xr:TypeId>b810ae89-7b9d-44a4-8bec-506a35d3ff66</xr:TypeId>
+				<xr:ValueId>a2eadd3d-1251-4d6e-8243-556b9148b9d5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Клиенты" category="List">
-				<xr:TypeId>4655c414-df28-4cd2-8053-786a158ed61b</xr:TypeId>
-				<xr:ValueId>5d504744-39ef-42e8-b974-23cd82d3f2fe</xr:ValueId>
+				<xr:TypeId>b64ea70b-2d00-4b87-a857-5752362c7ad4</xr:TypeId>
+				<xr:ValueId>612b2723-15ea-4913-acef-5734ffc278d3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Клиенты" category="Manager">
-				<xr:TypeId>09f0c52f-28fa-40a5-9f29-8c0abbb53a97</xr:TypeId>
-				<xr:ValueId>cf013685-0bc2-48f6-bcf1-ebd7aecba747</xr:ValueId>
+				<xr:TypeId>af0169a6-35f1-4546-9b4c-9f14cde92a93</xr:TypeId>
+				<xr:ValueId>ad244b69-35e9-4d55-8c96-2c74cbc79d3c</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="62d233bb-4b65-40f6-83d8-1ec8ab25192b">
+			<Attribute uuid="1efce7a2-c987-4122-90be-65bf6ab326b5">
 				<Properties>
 					<Name>Телефон</Name>
 					<Synonym>
@@ -77,7 +77,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="51d19744-73cd-4d2b-8cd3-c009ec58ac76">
+			<Attribute uuid="47b7a162-b76b-4cc9-ae4e-ae16bd78f3b9">
 				<Properties>
 					<Name>Email</Name>
 					<Synonym>
@@ -96,7 +96,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b9ee6ce8-ba04-44c9-bee5-fd958e207b6f">
+			<Attribute uuid="6494427a-9a03-467b-a96a-8f811974a868">
 				<Properties>
 					<Name>ДатаРождения</Name>
 					<Synonym>
@@ -114,7 +114,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6eedb0f0-00e7-4f74-ad24-93a6275ae283">
+			<Attribute uuid="068b31d3-94eb-4e91-8153-b90e46e681fd">
 				<Properties>
 					<Name>Пол</Name>
 					<Synonym>
@@ -129,7 +129,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="276ffc5b-0f55-4a85-a644-9a1652f3e37a">
+			<Attribute uuid="98b69c22-73b5-4276-9f0c-24058a0cb227">
 				<Properties>
 					<Name>Комментарий</Name>
 					<Synonym>

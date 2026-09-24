@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="bafd5e63-a061-4122-8937-10426693dabd">
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
+	<Catalog uuid="040be366-f2e5-4ff6-82ad-4c9f3dd3f2ad">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Материалы" category="Object">
-				<xr:TypeId>66bf6ad6-75a2-4fb3-a0f2-799c8a497ce4</xr:TypeId>
-				<xr:ValueId>a8b429af-cdd8-4c15-95cd-b896cfb81133</xr:ValueId>
+				<xr:TypeId>c11fb529-70b0-4e7d-bb8e-1b6e26d06b65</xr:TypeId>
+				<xr:ValueId>aa42db9d-e80c-4290-8d0b-beebf70eed3c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Материалы" category="Ref">
-				<xr:TypeId>f262d838-71bb-4fef-9e40-b7460f6f434b</xr:TypeId>
-				<xr:ValueId>0c50cd03-86f5-46c6-ac5d-3614ee955f46</xr:ValueId>
+				<xr:TypeId>7b5a8d34-5789-4526-9225-ac5a43a556cf</xr:TypeId>
+				<xr:ValueId>aad0e68f-952d-4666-9548-382a90712a6e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Материалы" category="Selection">
-				<xr:TypeId>ce5345bf-ce97-401a-9f2b-6d9e1c7ee2c3</xr:TypeId>
-				<xr:ValueId>6f961c4b-3301-4d45-870e-c196b06234de</xr:ValueId>
+				<xr:TypeId>9418728f-5380-4cc2-981d-00d8ff6742ce</xr:TypeId>
+				<xr:ValueId>1d0f8a17-2f63-485c-9c01-11482c9f29aa</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Материалы" category="List">
-				<xr:TypeId>9054a1a7-002f-4561-a9a7-1cc72a347678</xr:TypeId>
-				<xr:ValueId>aa623955-32e8-4eeb-9ab7-32f2eda2766a</xr:ValueId>
+				<xr:TypeId>f2c9736d-4340-4ffc-82e6-9f134a65c99c</xr:TypeId>
+				<xr:ValueId>26eae587-144b-4bb0-a206-abf3542fb45d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Материалы" category="Manager">
-				<xr:TypeId>f94800f3-a5b1-4ec3-8e43-2747c8960297</xr:TypeId>
-				<xr:ValueId>6dc50bd1-d8e2-4764-98f7-910e0f94a8c9</xr:ValueId>
+				<xr:TypeId>39816b34-835a-4a06-85bd-429e17fa1cdc</xr:TypeId>
+				<xr:ValueId>bacda3d2-32c1-49f3-abc4-bea125acd55f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="737298eb-f375-4083-8a07-431906b17057">
+			<Attribute uuid="a6fbd60b-460d-4ba1-b0ba-bf0bf1a1f231">
 				<Properties>
 					<Name>Артикул</Name>
 					<Synonym>
@@ -77,7 +77,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f4e5d136-c489-419b-8ee7-27542cb1fe3c">
+			<Attribute uuid="a91e54d4-f005-4531-93a5-ceddb5cd58d5">
 				<Properties>
 					<Name>ЕдиницаИзмерения</Name>
 					<Synonym>
@@ -96,7 +96,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7352d437-14d6-4b26-8a0d-94cba2087c17">
+			<Attribute uuid="e453536d-f3f0-421c-be50-d37996c0506a">
 				<Properties>
 					<Name>МинимальныйОстаток</Name>
 					<Synonym>
@@ -116,7 +116,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="cca65bb7-7f5e-4582-8ef3-cd81d8807fa4">
+			<Attribute uuid="77e23a26-e1cb-411b-92c7-245120a1114d">
 				<Properties>
 					<Name>Цена</Name>
 					<Synonym>
@@ -136,7 +136,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a5a4d969-b635-44c8-b65d-3b5bae9537a2">
+			<Attribute uuid="72028d06-d03e-4414-988e-092b1035a9bb">
 				<Properties>
 					<Name>Описание</Name>
 					<Synonym>
