@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="a7b7ea92-3b2c-4af5-acab-9db9844a5bfc">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.Выручка" category="Record">
+				<xr:TypeId>d0b13446-3cf3-41c0-833b-21a0c0b81c5e</xr:TypeId>
+				<xr:ValueId>55d2eaf4-1c77-4be7-ab64-bb05a04af14a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.Выручка" category="Manager">
+				<xr:TypeId>3236d6f1-b46b-4aa9-8580-b6bdd3ec54f2</xr:TypeId>
+				<xr:ValueId>23c15448-9e31-4f1a-8673-255305b9e5ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.Выручка" category="Selection">
+				<xr:TypeId>54c7ad23-e0d8-4cd9-8cf6-c12451d7b0bc</xr:TypeId>
+				<xr:ValueId>6f40888d-7432-424b-a76b-68d7941cea28</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.Выручка" category="List">
+				<xr:TypeId>9b7de1cc-425f-4857-9fe4-99f865019f10</xr:TypeId>
+				<xr:ValueId>1cc0db4b-e642-4cda-aa6e-021fa6695930</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.Выручка" category="RecordSet">
+				<xr:TypeId>ac38a2c1-a3c9-4c13-a824-8a89672fa714</xr:TypeId>
+				<xr:ValueId>bb04e9bd-338f-4f9d-b6f3-f6fa8c0a1b74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.Выручка" category="RecordKey">
+				<xr:TypeId>2b4a13b0-7e73-4b03-80f0-388c4a7931e2</xr:TypeId>
+				<xr:ValueId>9190ce4c-31bd-4167-b273-b8479aa5e94a</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Выручка</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выручка</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisterType>Turnovers</RegisterType>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<EnableTotalsSplitting>true</EnableTotalsSplitting>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="5b94634c-211a-4040-8bde-43386bded10f">
+				<Properties>
+					<Name>Сумма</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="ef83ea4b-ce40-41bb-8e89-ecc24c24f984">
+				<Properties>
+					<Name>Клиент</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Клиент</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Клиенты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="6aff54c6-549d-4b28-87f4-557625494c1d">
+				<Properties>
+					<Name>ВидОплаты</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид оплаты</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.ВидОплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>
