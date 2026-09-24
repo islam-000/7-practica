@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="65cff997-2681-486b-80b6-44e7099aec29">
+	<Catalog uuid="7f4ee37c-e107-4acc-bb5c-987598477756">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Клиенты" category="Object">
-				<xr:TypeId>5ab34646-a77b-4519-a02d-d74da4f8d659</xr:TypeId>
-				<xr:ValueId>d80403ed-473c-454f-a013-475a1a047e18</xr:ValueId>
+				<xr:TypeId>42a737ba-4947-45fb-9e57-5cc8a8662737</xr:TypeId>
+				<xr:ValueId>cdb504e9-0dfa-4467-bfdf-6676d026c77d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Клиенты" category="Ref">
-				<xr:TypeId>ffe4d0a1-d71c-4f33-9180-c547ed867f0a</xr:TypeId>
-				<xr:ValueId>80181976-4eca-4b81-829c-b7f97164e160</xr:ValueId>
+				<xr:TypeId>c5972687-0007-4056-ac52-1aaa7656a581</xr:TypeId>
+				<xr:ValueId>474e9933-8782-459a-8009-502d1f55b704</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Клиенты" category="Selection">
-				<xr:TypeId>e1562d6d-42f0-44b6-b53d-74e24ff203c3</xr:TypeId>
-				<xr:ValueId>f6c2cb82-4a42-46a3-b1c3-b6bda224594b</xr:ValueId>
+				<xr:TypeId>6097bbbc-42c9-45a8-81c9-28c1f43063fd</xr:TypeId>
+				<xr:ValueId>18013271-59dd-455b-90cf-91cbdc75a7ba</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Клиенты" category="List">
-				<xr:TypeId>80158457-207a-41f1-8f37-d2f5e1e59e81</xr:TypeId>
-				<xr:ValueId>a193ef3a-fb5c-4008-8853-99c2682d02b2</xr:ValueId>
+				<xr:TypeId>4655c414-df28-4cd2-8053-786a158ed61b</xr:TypeId>
+				<xr:ValueId>5d504744-39ef-42e8-b974-23cd82d3f2fe</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Клиенты" category="Manager">
-				<xr:TypeId>25857422-8f80-4278-826e-debb06a82540</xr:TypeId>
-				<xr:ValueId>86e6a4a2-be03-44fc-b9f6-4eee9feced1f</xr:ValueId>
+				<xr:TypeId>09f0c52f-28fa-40a5-9f29-8c0abbb53a97</xr:TypeId>
+				<xr:ValueId>cf013685-0bc2-48f6-bcf1-ebd7aecba747</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="06bf0b6c-a30c-47ab-a4fc-ba2d42f4ccd8">
+			<Attribute uuid="62d233bb-4b65-40f6-83d8-1ec8ab25192b">
 				<Properties>
 					<Name>Телефон</Name>
 					<Synonym>
@@ -77,7 +77,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="f81de911-7a41-412b-b2ce-549a38cc0ce8">
+			<Attribute uuid="51d19744-73cd-4d2b-8cd3-c009ec58ac76">
 				<Properties>
 					<Name>Email</Name>
 					<Synonym>
@@ -96,7 +96,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b198ba5c-6127-4d04-bf17-c38e1cfe0266">
+			<Attribute uuid="b9ee6ce8-ba04-44c9-bee5-fd958e207b6f">
 				<Properties>
 					<Name>ДатаРождения</Name>
 					<Synonym>
@@ -114,7 +114,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="87b715c3-52f0-439d-8b27-8a0c6b1e130c">
+			<Attribute uuid="6eedb0f0-00e7-4f74-ad24-93a6275ae283">
 				<Properties>
 					<Name>Пол</Name>
 					<Synonym>
@@ -129,7 +129,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="81e05548-49b7-4c40-85bb-1b284b780e88">
+			<Attribute uuid="276ffc5b-0f55-4a85-a644-9a1652f3e37a">
 				<Properties>
 					<Name>Комментарий</Name>
 					<Synonym>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="758c53e6-889e-43ba-bada-3f2a49515bc5">
+	<Document uuid="990a8cf8-0e57-48bd-a67b-d47ab82dd20b">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.Оплата" category="Object">
-				<xr:TypeId>3da6a76f-a220-479f-a8c3-2cb8c9a15a79</xr:TypeId>
-				<xr:ValueId>109d3733-b2a2-4a16-836b-431ec4c55490</xr:ValueId>
+				<xr:TypeId>c07827c2-8a13-45c7-924f-375c8738a143</xr:TypeId>
+				<xr:ValueId>c2153a52-9fcd-4602-b2db-b14e766a87c8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.Оплата" category="Ref">
-				<xr:TypeId>333f8832-a4c7-4d96-bedc-f704189e626c</xr:TypeId>
-				<xr:ValueId>6ccf6b78-b07f-4e6a-8d2d-151a8cfebcfb</xr:ValueId>
+				<xr:TypeId>9f089977-71b7-4111-bdd9-5502ccc58b99</xr:TypeId>
+				<xr:ValueId>ceb52a06-16b0-457d-9bb4-116e2f83c8a1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.Оплата" category="Selection">
-				<xr:TypeId>a83a551d-e7ee-493a-a064-5dd17e42a21e</xr:TypeId>
-				<xr:ValueId>566fa131-834a-417a-b342-d5a7faa83b62</xr:ValueId>
+				<xr:TypeId>8e415de3-5e96-4685-b786-f043d3826794</xr:TypeId>
+				<xr:ValueId>2bf6136c-1949-4f86-a149-67260c9d2a27</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.Оплата" category="List">
-				<xr:TypeId>5a193b95-f130-4342-bb58-3405b90e50c1</xr:TypeId>
-				<xr:ValueId>6c0489bb-8d7e-4287-b6fa-ef3383c41e37</xr:ValueId>
+				<xr:TypeId>76b4a677-9f64-4aae-8c3a-7e648399b02f</xr:TypeId>
+				<xr:ValueId>2fac2c30-d0cb-4123-94cd-19fe95a534a1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.Оплата" category="Manager">
-				<xr:TypeId>f582a1f9-7781-48a7-9c5a-3498b7185b34</xr:TypeId>
-				<xr:ValueId>657c3849-4bc9-4780-b457-dfd4de1331b0</xr:ValueId>
+				<xr:TypeId>9205e3fd-6a95-4fc1-95dd-e0b96c91464f</xr:TypeId>
+				<xr:ValueId>756fc36d-eaf2-4b28-bebe-130f24be8d7a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -59,7 +59,7 @@
 			<FullTextSearch>Use</FullTextSearch>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="b0f5f7d6-20e9-4d11-93c1-f244a199b3b3">
+			<Attribute uuid="52948484-b12f-4878-afdb-00a30876293c">
 				<Properties>
 					<Name>Клиент</Name>
 					<Synonym>
@@ -74,7 +74,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="833f6399-ba25-49bf-bf22-a4be0165c216">
+			<Attribute uuid="47ed17ee-add8-4792-82a2-ef7a7f4656c5">
 				<Properties>
 					<Name>Заказ</Name>
 					<Synonym>
@@ -89,7 +89,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="62149007-5743-4acf-a12f-018cad71d763">
+			<Attribute uuid="f3c8bd60-98c3-4518-bedf-a53ffe6161a2">
 				<Properties>
 					<Name>ВидОплаты</Name>
 					<Synonym>
@@ -104,7 +104,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="5db7a961-d069-4b12-8890-9c5f8c201559">
+			<Attribute uuid="b451aa59-3ac8-4e58-9976-0d4848d48788">
 				<Properties>
 					<Name>Сумма</Name>
 					<Synonym>
@@ -124,7 +124,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="98adc18f-9e48-4189-9c81-bbd67911ee70">
+			<Attribute uuid="2f08a9b8-7fbd-44ce-a09d-9d774c0ec8e2">
 				<Properties>
 					<Name>Комментарий</Name>
 					<Synonym>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="7de0883c-0442-473f-a70d-1257e82d01ca">
+	<Catalog uuid="88be9d62-dfab-48bb-b6c0-5ca8a3073c8b">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Боксы" category="Object">
-				<xr:TypeId>1daea322-0de2-4476-9d0f-12a3e91a57d4</xr:TypeId>
-				<xr:ValueId>91f367da-ef97-4816-b36c-363b554aedc3</xr:ValueId>
+				<xr:TypeId>034fe95b-9d8c-4d8a-8afc-3f9b7a3a08c1</xr:TypeId>
+				<xr:ValueId>7877928f-cfa4-47b5-a9c6-c9384610a965</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Боксы" category="Ref">
-				<xr:TypeId>e7101913-42ce-42f1-92df-59b85685ea1d</xr:TypeId>
-				<xr:ValueId>fe7cdba2-83e3-40f7-a7b7-2630e06bd3aa</xr:ValueId>
+				<xr:TypeId>1604ce22-3e9e-4a9a-9a90-cd8af26c4bd3</xr:TypeId>
+				<xr:ValueId>26b8f769-86a0-48b5-bb21-1f8f8eed31cc</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Боксы" category="Selection">
-				<xr:TypeId>e6cbe97c-1e9b-431e-b8ec-dc428676c20b</xr:TypeId>
-				<xr:ValueId>af7be65a-4ebc-4bd7-b30c-45fbf7c6f568</xr:ValueId>
+				<xr:TypeId>eb72f118-160e-4d73-9f55-868878d6cad7</xr:TypeId>
+				<xr:ValueId>f5c93415-f532-44a5-8422-ef7f6de92c86</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Боксы" category="List">
-				<xr:TypeId>a11b52e1-38e0-44d2-84d8-00d1f76c3e77</xr:TypeId>
-				<xr:ValueId>0c5b5fe2-ed4b-4c36-8e48-4449aa3b09aa</xr:ValueId>
+				<xr:TypeId>25ef1889-1dcf-4a51-afc1-19165a373219</xr:TypeId>
+				<xr:ValueId>0a9e1fb2-540d-4ce6-bd1b-d39f5ede71ec</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Боксы" category="Manager">
-				<xr:TypeId>0b2ea0cc-92a1-4775-8b83-27c2ec13b80f</xr:TypeId>
-				<xr:ValueId>145cfac1-7592-4ea4-b3d0-defc83eed09d</xr:ValueId>
+				<xr:TypeId>eb6a1963-b2b6-42a6-b0e6-61506aff8c58</xr:TypeId>
+				<xr:ValueId>653c1302-e9ec-4f52-8ca2-2e8519d7fc90</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="4f79e589-8d5a-4345-b21e-054ae7714cdf">
+			<Attribute uuid="5f51b640-478a-466d-9754-b3e94accf19b">
 				<Properties>
 					<Name>НомерБокса</Name>
 					<Synonym>

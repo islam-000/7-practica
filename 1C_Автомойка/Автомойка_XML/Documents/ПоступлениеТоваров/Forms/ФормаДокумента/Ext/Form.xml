@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Поставщик" id="7">
+			<DataPath>Объект.Поставщик</DataPath>
+			<ContextMenu name="ПоставщикКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ПоставщикРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Ответственный" id="10">
+			<DataPath>Объект.Ответственный</DataPath>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Table name="Материалы" id="28">
+			<DataPath>Объект.Материалы</DataPath>
+			<ContextMenu name="МатериалыКонтекстноеМеню" id="29"/>
+			<AutoCommandBar name="МатериалыКоманднаяПанель" id="30"/>
+			<ExtendedTooltip name="МатериалыРасширеннаяПодсказка" id="31"/>
+			<Events>
+				<Event name="AfterDeleteRow">МатериалыПослеУдаления</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="МатериалыНомерСтроки" id="13">
+					<DataPath>Объект.Материалы.LineNumber</DataPath>
+					<ContextMenu name="МатериалыНомерСтрокиКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="МатериалыНомерСтрокиРасширеннаяПодсказка" id="15"/>
+				</LabelField>
+				<InputField name="МатериалыМатериал" id="16">
+					<DataPath>Объект.Материалы.Материал</DataPath>
+					<ContextMenu name="МатериалыМатериалКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="МатериалыМатериалРасширеннаяПодсказка" id="18"/>
+					<Events>
+						<Event name="OnChange">МатериалыМатериалПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="МатериалыКоличество" id="19">
+					<DataPath>Объект.Материалы.Количество</DataPath>
+					<ContextMenu name="МатериалыКоличествоКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="МатериалыКоличествоРасширеннаяПодсказка" id="21"/>
+					<Events>
+						<Event name="OnChange">МатериалыКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="МатериалыЦена" id="22">
+					<DataPath>Объект.Материалы.Цена</DataPath>
+					<ContextMenu name="МатериалыЦенаКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="МатериалыЦенаРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">МатериалыКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="МатериалыСумма" id="25">
+					<DataPath>Объект.Материалы.Сумма</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="МатериалыСуммаКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="МатериалыСуммаРасширеннаяПодсказка" id="27"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Сумма" id="32">
+			<DataPath>Объект.Сумма</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="СуммаКонтекстноеМеню" id="33"/>
+			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="34"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ПоступлениеТоваров</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="2717d3a6-177e-468f-acb8-b6660176dc70">
+	<Document uuid="15d132c2-602e-49b0-a1c0-a688725119f5">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ЗаказНаМойку" category="Object">
-				<xr:TypeId>31dac5bf-a660-4985-9448-d70d92c06d60</xr:TypeId>
-				<xr:ValueId>3443d639-311d-4f4b-8125-4568f766db9d</xr:ValueId>
+				<xr:TypeId>d6a16b0e-b8d6-46e4-a874-f4e91e425a47</xr:TypeId>
+				<xr:ValueId>f9c9ef41-c225-46b5-9389-c79651c1aaa5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ЗаказНаМойку" category="Ref">
-				<xr:TypeId>0fe5ddc5-b627-49fa-9b81-f480838c318e</xr:TypeId>
-				<xr:ValueId>2872dd27-297a-4147-9898-c2cc70ce4710</xr:ValueId>
+				<xr:TypeId>218654c2-456a-40d2-a766-5de241a77b40</xr:TypeId>
+				<xr:ValueId>343c1fa3-5a4a-4d50-ac06-4852795ef95f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ЗаказНаМойку" category="Selection">
-				<xr:TypeId>663f8837-d769-44a6-a2b4-2074fdc950e2</xr:TypeId>
-				<xr:ValueId>32800b40-c322-4c41-88d9-e8f45c61fa70</xr:ValueId>
+				<xr:TypeId>9406f46d-1f29-407d-9ad6-250ab746d0b5</xr:TypeId>
+				<xr:ValueId>c7dd5a5b-b670-4692-a60a-b0838c61f6ae</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ЗаказНаМойку" category="List">
-				<xr:TypeId>fc84fec0-d284-42cf-b67a-c74b273cbe1f</xr:TypeId>
-				<xr:ValueId>c726271a-9ee3-4a3d-aa1b-656559ce5e7c</xr:ValueId>
+				<xr:TypeId>60d050f0-c8c1-4ecd-ae10-bea5b608f08e</xr:TypeId>
+				<xr:ValueId>250d6f1f-b227-4841-843e-b21473225228</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ЗаказНаМойку" category="Manager">
-				<xr:TypeId>56f9e7ac-6c41-4efc-97db-927208f6f940</xr:TypeId>
-				<xr:ValueId>0823ccfa-67c0-4819-87fb-24e9ade4b10c</xr:ValueId>
+				<xr:TypeId>6ae2ac5c-e331-4d01-a103-df2304b81f53</xr:TypeId>
+				<xr:ValueId>fce25a68-3620-4ebf-967a-c78e675b7195</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -43,6 +43,7 @@
 			<InputByString>
 				<xr:Field>Document.ЗаказНаМойку.StandardAttribute.Number</xr:Field>
 			</InputByString>
+			<DefaultObjectForm>Document.ЗаказНаМойку.Form.ФормаДокумента</DefaultObjectForm>
 			<Posting>Allow</Posting>
 			<RealTimePosting>Deny</RealTimePosting>
 			<RegisterRecordsDeletion>AutoDeleteOnUnpost</RegisterRecordsDeletion>
@@ -57,7 +58,7 @@
 			<FullTextSearch>Use</FullTextSearch>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a1eeff92-ef1b-4dbb-9125-20661cf50b80">
+			<Attribute uuid="f6096671-3278-4076-8527-0496a137e32b">
 				<Properties>
 					<Name>Клиент</Name>
 					<Synonym>
@@ -72,7 +73,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d1ff4a3f-b8e8-4b66-9e5a-1b6a10c6dd3a">
+			<Attribute uuid="cb5196ba-48dd-4fa9-9504-43e6c4bfbf77">
 				<Properties>
 					<Name>Автомобиль</Name>
 					<Synonym>
@@ -87,7 +88,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="60e52316-14a9-41bd-a669-8f3dd27aea0f">
+			<Attribute uuid="ced31325-875f-4db9-a83f-7839bee37764">
 				<Properties>
 					<Name>Бокс</Name>
 					<Synonym>
@@ -102,7 +103,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4911626e-4ab9-4fdb-a2db-8d94cc53a77c">
+			<Attribute uuid="c8b0981a-00c4-4b95-ab12-b8ceb5aa64f4">
 				<Properties>
 					<Name>Мойщик</Name>
 					<Synonym>
@@ -117,7 +118,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6281abb3-1741-4db1-ae99-e2c02b15c001">
+			<Attribute uuid="931e8951-7553-4755-b376-cb4737a86064">
 				<Properties>
 					<Name>Статус</Name>
 					<Synonym>
@@ -132,7 +133,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="6a0abc91-c6af-4a9c-8472-68f7348092e8">
+			<Attribute uuid="41203598-4c76-402f-9b1f-7a2e9116003a">
 				<Properties>
 					<Name>ВидОплаты</Name>
 					<Synonym>
@@ -147,7 +148,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="621b27fa-294e-45c7-9353-832b81efec54">
+			<Attribute uuid="38ef5698-f2a4-43b4-8c48-fa4bc3dae8e5">
 				<Properties>
 					<Name>Сумма</Name>
 					<Synonym>
@@ -167,7 +168,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9271923a-bacf-4f44-a9c4-cb5e3e04fea1">
+			<Attribute uuid="0164ff58-899e-48cc-a614-f68455c6b4a2">
 				<Properties>
 					<Name>Комментарий</Name>
 					<Synonym>
@@ -186,15 +187,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="ed14279b-1300-4b52-ad96-da32660150eb">
+			<TabularSection uuid="1f0ba0b5-f209-4160-84df-58b2706926ae">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаказНаМойку.Услуги" category="TabularSection">
-						<xr:TypeId>2a2ddd78-e459-46af-a705-30ca015f0d59</xr:TypeId>
-						<xr:ValueId>5ec6d79b-68f1-46c0-8f19-cd78fb924635</xr:ValueId>
+						<xr:TypeId>5a2845fd-b879-4658-b477-391788d84dd1</xr:TypeId>
+						<xr:ValueId>524d0f94-d62b-45a5-a5b0-055382921601</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DocumentTabularSectionRow.ЗаказНаМойку.Услуги" category="TabularSectionRow">
-						<xr:TypeId>ef58eb43-4ad2-4aba-9d22-a9142f0cbe91</xr:TypeId>
-						<xr:ValueId>e104b060-57fb-4414-b8a1-0ccd1ec55a58</xr:ValueId>
+						<xr:TypeId>c89515be-732c-4d36-be28-b0ed3b8c865a</xr:TypeId>
+						<xr:ValueId>187e53a7-8af5-476a-a1a0-6fdb3465a1be</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -208,7 +209,7 @@
 					<Comment/>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="4ec4ebe8-1acc-4f88-93a9-68bbedbca98f">
+					<Attribute uuid="c824a5ce-9178-4cd3-a2bf-c33ccd1c23c6">
 						<Properties>
 							<Name>Услуга</Name>
 							<Synonym>
@@ -223,7 +224,7 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="06f8e80d-3586-4309-aefa-d6c594ff0779">
+					<Attribute uuid="cb73981b-d633-415f-bfea-2b0efac5378b">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -243,7 +244,7 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5dfe277c-7782-40b0-9df3-73aa707f91fc">
+					<Attribute uuid="14d3de1f-8cf7-443a-adff-11652e943215">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -263,7 +264,7 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="d7d399f7-ebbe-4d72-aa56-cda12dae61a2">
+					<Attribute uuid="e3b5e90b-dddb-476c-b1f4-d9dbc8a69df9">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
@@ -285,6 +286,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Form>ФормаДокумента</Form>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>

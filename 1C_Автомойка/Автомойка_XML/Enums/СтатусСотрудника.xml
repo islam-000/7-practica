@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Enum uuid="fb96ba7f-8a42-45db-8d84-b3fb68d25c00">
+	<Enum uuid="93902176-5ba4-4a81-909d-cd1ff218ee4d">
 		<InternalInfo>
 			<xr:GeneratedType name="EnumRef.СтатусСотрудника" category="Ref">
-				<xr:TypeId>4290a8e5-c3ec-4b40-b271-a516bd565a15</xr:TypeId>
-				<xr:ValueId>3fcd5eef-673d-4f1b-b267-05adff6eb03d</xr:ValueId>
+				<xr:TypeId>fa5bea3e-a31d-49d9-97db-70931d6db049</xr:TypeId>
+				<xr:ValueId>2a4f9e16-56ad-4ad1-9f21-63aa7bdf800b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumManager.СтатусСотрудника" category="Manager">
-				<xr:TypeId>05cf3909-7350-4257-8674-48323c7916a4</xr:TypeId>
-				<xr:ValueId>c191b165-7779-40b3-9cfb-b7c23a4cdf97</xr:ValueId>
+				<xr:TypeId>e31282e2-d077-48d7-9979-14c708d15d08</xr:TypeId>
+				<xr:ValueId>41079bd5-602d-4bbe-a71a-d2e061500085</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="EnumList.СтатусСотрудника" category="List">
-				<xr:TypeId>c1ae2fa2-7995-412b-8c15-b4470838e1d5</xr:TypeId>
-				<xr:ValueId>1c204411-8e23-4a03-9832-5b8969642b9f</xr:ValueId>
+				<xr:TypeId>58b157c9-6a9d-4cbd-ada7-24e3f647c4e8</xr:TypeId>
+				<xr:ValueId>577ab9a3-e7bf-404f-9e5c-a02f6bbce3dd</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -29,7 +29,7 @@
 			<ChoiceMode>BothWays</ChoiceMode>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="54532160-7114-4297-9811-17c000584c83">
+			<EnumValue uuid="193cfaad-59fe-4a1f-842f-e5b364bdc737">
 				<Properties>
 					<Name>ВРаботе</Name>
 					<Synonym>
@@ -41,7 +41,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="b0622a8d-bb44-4c8a-ae3d-fe5e26983cd3">
+			<EnumValue uuid="0539bce9-780f-4165-9bf5-c70c883945c2">
 				<Properties>
 					<Name>ВОтпуске</Name>
 					<Synonym>
@@ -53,7 +53,7 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="38422f8b-91d1-4e5a-b77d-d88fa673a7a4">
+			<EnumValue uuid="0bfd5b22-2404-4208-9be8-5347242abf26">
 				<Properties>
 					<Name>Уволен</Name>
 					<Synonym>

@@ -261,6 +261,9 @@
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусЗаказа</Enum>
 			<Enum>ВидОплаты</Enum>
+			<Report>ВыручкаЗаПериод</Report>
+			<Report>ОстаткиМатериалов</Report>
+			<Report>ЗаказыПоМойщикам</Report>
 			<InformationRegister>ЦеныУслуг</InformationRegister>
 			<AccumulationRegister>Выручка</AccumulationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>

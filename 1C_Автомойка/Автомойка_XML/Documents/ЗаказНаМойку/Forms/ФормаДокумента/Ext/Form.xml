@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Автомобиль" id="7">
+			<DataPath>Объект.Автомобиль</DataPath>
+			<ContextMenu name="АвтомобильКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="АвтомобильРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">АвтомобильПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Клиент" id="10">
+			<DataPath>Объект.Клиент</DataPath>
+			<ContextMenu name="КлиентКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КлиентРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Бокс" id="13">
+			<DataPath>Объект.Бокс</DataPath>
+			<ContextMenu name="БоксКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="БоксРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Мойщик" id="16">
+			<DataPath>Объект.Мойщик</DataPath>
+			<ContextMenu name="МойщикКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="МойщикРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<InputField name="Статус" id="19">
+			<DataPath>Объект.Статус</DataPath>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="ВидОплаты" id="22">
+			<DataPath>Объект.ВидОплаты</DataPath>
+			<ContextMenu name="ВидОплатыКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ВидОплатыРасширеннаяПодсказка" id="24"/>
+		</InputField>
+		<Table name="Услуги" id="40">
+			<DataPath>Объект.Услуги</DataPath>
+			<ContextMenu name="УслугиКонтекстноеМеню" id="41"/>
+			<AutoCommandBar name="УслугиКоманднаяПанель" id="42"/>
+			<ExtendedTooltip name="УслугиРасширеннаяПодсказка" id="43"/>
+			<Events>
+				<Event name="AfterDeleteRow">УслугиПослеУдаления</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="УслугиНомерСтроки" id="25">
+					<DataPath>Объект.Услуги.LineNumber</DataPath>
+					<ContextMenu name="УслугиНомерСтрокиКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="УслугиНомерСтрокиРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<InputField name="УслугиУслуга" id="28">
+					<DataPath>Объект.Услуги.Услуга</DataPath>
+					<ContextMenu name="УслугиУслугаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="УслугиУслугаРасширеннаяПодсказка" id="30"/>
+					<Events>
+						<Event name="OnChange">УслугиУслугаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="УслугиКоличество" id="31">
+					<DataPath>Объект.Услуги.Количество</DataPath>
+					<ContextMenu name="УслугиКоличествоКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="УслугиКоличествоРасширеннаяПодсказка" id="33"/>
+					<Events>
+						<Event name="OnChange">УслугиКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="УслугиЦена" id="34">
+					<DataPath>Объект.Услуги.Цена</DataPath>
+					<ContextMenu name="УслугиЦенаКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="УслугиЦенаРасширеннаяПодсказка" id="36"/>
+					<Events>
+						<Event name="OnChange">УслугиКоличествоПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="УслугиСумма" id="37">
+					<DataPath>Объект.Услуги.Сумма</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ContextMenu name="УслугиСуммаКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="УслугиСуммаРасширеннаяПодсказка" id="39"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Сумма" id="44">
+			<DataPath>Объект.Сумма</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="СуммаКонтекстноеМеню" id="45"/>
+			<ExtendedTooltip name="СуммаРасширеннаяПодсказка" id="46"/>
+		</InputField>
+		<InputField name="Комментарий" id="47">
+			<DataPath>Объект.Комментарий</DataPath>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="49"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЗаказНаМойку</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
