@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="040be366-f2e5-4ff6-82ad-4c9f3dd3f2ad">
+	<Catalog uuid="fb5db5f3-e2de-40a5-befc-ef37e04a97c8">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Материалы" category="Object">
-				<xr:TypeId>c11fb529-70b0-4e7d-bb8e-1b6e26d06b65</xr:TypeId>
-				<xr:ValueId>aa42db9d-e80c-4290-8d0b-beebf70eed3c</xr:ValueId>
+				<xr:TypeId>72b4e011-70b6-44f6-9708-09b9135db617</xr:TypeId>
+				<xr:ValueId>f86399d0-b4be-44f0-9faf-869e8668633e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Материалы" category="Ref">
-				<xr:TypeId>7b5a8d34-5789-4526-9225-ac5a43a556cf</xr:TypeId>
-				<xr:ValueId>aad0e68f-952d-4666-9548-382a90712a6e</xr:ValueId>
+				<xr:TypeId>1a8fd27c-2fce-436d-8263-7e7cb2e59d43</xr:TypeId>
+				<xr:ValueId>1397e478-ccda-4666-a9fb-1d45edff140a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Материалы" category="Selection">
-				<xr:TypeId>9418728f-5380-4cc2-981d-00d8ff6742ce</xr:TypeId>
-				<xr:ValueId>1d0f8a17-2f63-485c-9c01-11482c9f29aa</xr:ValueId>
+				<xr:TypeId>9cfd398b-1c96-4458-bd86-68ec15610108</xr:TypeId>
+				<xr:ValueId>e1df4d06-cdc7-4638-9b27-f6a76c976d37</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Материалы" category="List">
-				<xr:TypeId>f2c9736d-4340-4ffc-82e6-9f134a65c99c</xr:TypeId>
-				<xr:ValueId>26eae587-144b-4bb0-a206-abf3542fb45d</xr:ValueId>
+				<xr:TypeId>790f1247-6a80-45b3-a169-365028083046</xr:TypeId>
+				<xr:ValueId>fedbd6ab-d9a1-447e-841a-b1a4a7323dab</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Материалы" category="Manager">
-				<xr:TypeId>39816b34-835a-4a06-85bd-429e17fa1cdc</xr:TypeId>
-				<xr:ValueId>bacda3d2-32c1-49f3-abc4-bea125acd55f</xr:ValueId>
+				<xr:TypeId>02311ea8-e11a-4191-9f7c-9baeb303b912</xr:TypeId>
+				<xr:ValueId>41def608-e41b-4980-a2c6-4b16becd2ec8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a6fbd60b-460d-4ba1-b0ba-bf0bf1a1f231">
+			<Attribute uuid="f319a547-4f77-46a4-9fa6-f33e5da31eeb">
 				<Properties>
 					<Name>Артикул</Name>
 					<Synonym>
@@ -77,7 +77,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a91e54d4-f005-4531-93a5-ceddb5cd58d5">
+			<Attribute uuid="be475dae-c141-4934-9dd4-454112bb6850">
 				<Properties>
 					<Name>ЕдиницаИзмерения</Name>
 					<Synonym>
@@ -96,7 +96,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e453536d-f3f0-421c-be50-d37996c0506a">
+			<Attribute uuid="b9171d3d-5467-4bd0-9295-37b8c9641bd0">
 				<Properties>
 					<Name>МинимальныйОстаток</Name>
 					<Synonym>
@@ -116,7 +116,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="77e23a26-e1cb-411b-92c7-245120a1114d">
+			<Attribute uuid="7083967c-0aab-4f03-8b3c-ce13865d42ae">
 				<Properties>
 					<Name>Цена</Name>
 					<Synonym>
@@ -136,7 +136,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="72028d06-d03e-4414-988e-092b1035a9bb">
+			<Attribute uuid="dd7fb698-8ff7-4228-8677-fc530446b03e">
 				<Properties>
 					<Name>Описание</Name>
 					<Synonym>

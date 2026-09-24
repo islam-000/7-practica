@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="6bd57755-081c-43b2-b840-dfc0edcd51b6">
+	<Catalog uuid="3f17fce5-6049-4c71-901e-56238ce09ebd">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Сотрудники" category="Object">
-				<xr:TypeId>9ffa8034-5bff-40bd-81de-02ec55d3f08a</xr:TypeId>
-				<xr:ValueId>51ed8249-67b2-48b0-888d-5366e6226832</xr:ValueId>
+				<xr:TypeId>234f1a7d-7d3f-45b3-a467-88ded4ba02ca</xr:TypeId>
+				<xr:ValueId>5fef777f-37c8-47be-be16-e4177660fc4b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Сотрудники" category="Ref">
-				<xr:TypeId>76b69de6-64e7-442e-8b0d-eaa28cc4043c</xr:TypeId>
-				<xr:ValueId>4a21f4e9-1ffe-40a6-b38a-c1d76eb91341</xr:ValueId>
+				<xr:TypeId>3165830e-0376-465d-bd2b-da94d5079d10</xr:TypeId>
+				<xr:ValueId>7ef60cf2-92cc-40d1-8173-6468ca12db3a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Сотрудники" category="Selection">
-				<xr:TypeId>f1f2be51-9d15-4062-a239-18d38de6cd2b</xr:TypeId>
-				<xr:ValueId>625186cf-84fa-46d6-b11a-0147eb7acdf0</xr:ValueId>
+				<xr:TypeId>92bec0f4-d7f8-4b95-bd47-9a0b8f98a591</xr:TypeId>
+				<xr:ValueId>d106cd0c-5fe9-4288-ad46-c34e2351755b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Сотрудники" category="List">
-				<xr:TypeId>7d159454-1c4b-4e00-bd89-1c939622f0fa</xr:TypeId>
-				<xr:ValueId>66e0ab2c-cf43-44c1-8575-2067e20572c6</xr:ValueId>
+				<xr:TypeId>468550f6-3ce4-4268-9417-69c3bec215e2</xr:TypeId>
+				<xr:ValueId>085b00f2-f93a-47e7-b13f-91d330243422</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Сотрудники" category="Manager">
-				<xr:TypeId>0abd176e-866b-49aa-9c83-71abcbb96ee9</xr:TypeId>
-				<xr:ValueId>d108b604-6760-432e-b111-f252255af413</xr:ValueId>
+				<xr:TypeId>c4035114-4b3c-4522-9ba3-693ea98ab574</xr:TypeId>
+				<xr:ValueId>44a29525-90b7-46ad-b019-0d98a2bd08bf</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="a2f9bd8f-dfa8-4067-8ba6-8b0ed54595ab">
+			<Attribute uuid="a8868ea4-98c0-4893-8d9a-56dee7a6389a">
 				<Properties>
 					<Name>Должность</Name>
 					<Synonym>
@@ -77,7 +77,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="06f56b66-195a-4a45-9ecc-bdf4d7a641a5">
+			<Attribute uuid="cd47dd46-6ea6-47ef-90a2-ca7a3d522c87">
 				<Properties>
 					<Name>Телефон</Name>
 					<Synonym>
@@ -96,7 +96,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7a1c6b5e-2b4b-4899-bd79-62d57d370a4b">
+			<Attribute uuid="f732f8e7-07e3-47e8-99f3-ac7dc52e9a23">
 				<Properties>
 					<Name>ДатаПриема</Name>
 					<Synonym>
@@ -114,7 +114,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="3722d19f-8558-4fe6-97b9-7660ab7bae31">
+			<Attribute uuid="d33ad6c8-14fd-4dc5-87f9-228ad8cffd35">
 				<Properties>
 					<Name>Статус</Name>
 					<Synonym>

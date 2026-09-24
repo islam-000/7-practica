@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Catalog uuid="f212d5ff-995b-4f34-92c5-2ae53d46460e">
+	<Catalog uuid="1be55fc5-df02-4fb5-9c75-630134be3861">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Автомобили" category="Object">
-				<xr:TypeId>d9054262-9d5d-4b41-a45e-6a03d0e4b0dd</xr:TypeId>
-				<xr:ValueId>5e21faf3-99de-4d34-a319-3234f2ee9cf1</xr:ValueId>
+				<xr:TypeId>ac6692fb-f2aa-4feb-aa55-7e2722494ac6</xr:TypeId>
+				<xr:ValueId>81c14574-fe5e-4ec9-965a-41b98c8f9ba9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Автомобили" category="Ref">
-				<xr:TypeId>3068e3b3-2cfe-4a21-825f-b823ba1044b4</xr:TypeId>
-				<xr:ValueId>cf8e8ee6-a1b1-4a04-a278-7de3b3c6e7a0</xr:ValueId>
+				<xr:TypeId>d5385fc8-ddae-4c73-b311-f493fddcc34d</xr:TypeId>
+				<xr:ValueId>2d9e56ac-1206-43b3-8bc7-d75700c31e76</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Автомобили" category="Selection">
-				<xr:TypeId>b630c069-528b-4fa1-be42-63cf86301b9f</xr:TypeId>
-				<xr:ValueId>ce378367-5c27-4d53-bb72-4cbb87a30d88</xr:ValueId>
+				<xr:TypeId>85576e8d-6d25-4a18-8ecb-bcdfaa2df687</xr:TypeId>
+				<xr:ValueId>fec71880-4296-4c12-8a40-19235deb4662</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Автомобили" category="List">
-				<xr:TypeId>7b7760c0-d5fe-495b-a344-39a043364032</xr:TypeId>
-				<xr:ValueId>500650a1-8927-43e1-982e-34ac391c783d</xr:ValueId>
+				<xr:TypeId>046db153-7e7c-409b-a525-d1cae06519cb</xr:TypeId>
+				<xr:ValueId>bada9c3f-502f-45de-9bf1-28efca53c364</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Автомобили" category="Manager">
-				<xr:TypeId>b27946b4-19e9-4279-9d71-8ffb68b26b09</xr:TypeId>
-				<xr:ValueId>d0dad53b-34a8-4d54-abed-9e94bca4a809</xr:ValueId>
+				<xr:TypeId>e14bcd2f-0106-432e-a34b-b47336923975</xr:TypeId>
+				<xr:ValueId>49703205-6450-4e62-b410-5cba3c1fad43</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,13 +58,13 @@
 			</ObjectPresentation>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="8c269453-e4d9-4f97-ac1b-1931d774cdbc">
+			<Attribute uuid="d156b2c7-3c2c-4eb7-9b39-b86290d48645">
 				<Properties>
-					<Name>Владелец</Name>
+					<Name>Клиент</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Владелец</v8:content>
+							<v8:content>Клиент (владелец)</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -73,7 +73,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="8fee378c-38a6-4aa0-9fd4-722b1f0ec39a">
+			<Attribute uuid="8a4f6078-b07b-4bea-b98b-faf261b4c4c2">
 				<Properties>
 					<Name>ГосНомер</Name>
 					<Synonym>
@@ -92,7 +92,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1bf6ed97-2f01-4e4d-92ff-01033692137b">
+			<Attribute uuid="a3bce6e7-f23e-4f1d-96be-5ebd5a9ed45b">
 				<Properties>
 					<Name>Марка</Name>
 					<Synonym>
@@ -111,7 +111,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="1fb3070b-54dd-42ba-955b-32dd4b1563ea">
+			<Attribute uuid="a8080010-cef5-444e-98fe-7cdf08c3de7d">
 				<Properties>
 					<Name>Модель</Name>
 					<Synonym>
@@ -130,7 +130,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e92ded76-6742-497c-bc44-d3f64a8576c7">
+			<Attribute uuid="80e9561a-a541-4a4c-bb88-6b4274f44e26">
 				<Properties>
 					<Name>ТипАвтомобиля</Name>
 					<Synonym>
@@ -145,7 +145,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="e380af10-3706-4992-98ce-9a07300231cc">
+			<Attribute uuid="d591bc3e-3547-429e-9abd-03421e3647fc">
 				<Properties>
 					<Name>Цвет</Name>
 					<Synonym>
@@ -164,7 +164,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="b1953f7e-7ce7-4745-99d1-c35be9d66725">
+			<Attribute uuid="371d8af9-847f-4596-adb4-7b9454ec3911">
 				<Properties>
 					<Name>ГодВыпуска</Name>
 					<Synonym>
@@ -184,7 +184,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="95042562-dfec-47e9-af07-b86dee3a3f0d">
+			<Attribute uuid="9240bb4a-0a8d-4cff-854b-1e6a8909029d">
 				<Properties>
 					<Name>VIN</Name>
 					<Synonym>

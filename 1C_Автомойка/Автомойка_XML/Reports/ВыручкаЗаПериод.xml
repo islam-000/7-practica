@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Report uuid="d4929d3d-1089-4d20-a669-bebfb2e4516e">
+	<Report uuid="776b3a3c-16ff-495c-beb3-404079b141d9">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.ВыручкаЗаПериод" category="Object">
-				<xr:TypeId>f8d3b8f1-cfda-4835-91bb-5d8a813fcafd</xr:TypeId>
-				<xr:ValueId>8fc95398-1fa7-4993-8081-087162dbf5fc</xr:ValueId>
+				<xr:TypeId>5a4918b5-3894-48a4-ae75-03987b4aac4d</xr:TypeId>
+				<xr:ValueId>badfc74a-61a2-4d79-b0ff-de8fb7b15bb2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.ВыручкаЗаПериод" category="Manager">
-				<xr:TypeId>63aaa6b1-05a6-4ade-b1f4-fb5129a23ca1</xr:TypeId>
-				<xr:ValueId>36717d02-e595-49f5-87ad-67f339fe9f9c</xr:ValueId>
+				<xr:TypeId>40724418-99ab-4ae7-9d51-3492a9a137d6</xr:TypeId>
+				<xr:ValueId>e544bd17-9a9f-49b8-b753-292ed1f8e131</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

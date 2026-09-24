@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.18">
-	<Document uuid="40afbf8b-51e1-4537-b6d4-8843163044e0">
+	<Document uuid="5c5aa44a-97f1-4947-a2a6-82472f0986e3">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПоступлениеТоваров" category="Object">
-				<xr:TypeId>12b30786-3a59-4814-bb64-db1b65ffb253</xr:TypeId>
-				<xr:ValueId>22f1b676-3489-4c78-994c-ba3b0f394790</xr:ValueId>
+				<xr:TypeId>0415439c-65a7-4c2d-9675-db0da7b9134f</xr:TypeId>
+				<xr:ValueId>78798c6d-e0cf-4fa4-af44-778353a0c8ca</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ПоступлениеТоваров" category="Ref">
-				<xr:TypeId>83ecf8ef-bebd-4ecf-9f77-2426fe6979eb</xr:TypeId>
-				<xr:ValueId>b3d1dcca-d097-48fa-b2af-b1c3b5bd1cbd</xr:ValueId>
+				<xr:TypeId>7f222039-24d2-4ae8-b2f1-97a898d7434e</xr:TypeId>
+				<xr:ValueId>6ef75d73-01db-4b58-8b68-5b11d8eedae9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ПоступлениеТоваров" category="Selection">
-				<xr:TypeId>1f5bc1a7-a92b-4a88-9941-7afb23117497</xr:TypeId>
-				<xr:ValueId>d5ddabdc-a9ab-4956-a49f-7454d6244ce2</xr:ValueId>
+				<xr:TypeId>0fa83a03-d275-4eac-98af-81fac4ec3d78</xr:TypeId>
+				<xr:ValueId>add76dda-d4eb-45d5-81c2-5eeb5e0efed6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ПоступлениеТоваров" category="List">
-				<xr:TypeId>e79cf652-e5a6-4801-b75d-4cd704485224</xr:TypeId>
-				<xr:ValueId>7b0006e5-e5e2-450b-a0fc-87caf46620ac</xr:ValueId>
+				<xr:TypeId>64bf527e-cfb5-4295-8572-b26efe6c890a</xr:TypeId>
+				<xr:ValueId>d58fdbbd-4f91-493e-8506-f1fa61933b0b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ПоступлениеТоваров" category="Manager">
-				<xr:TypeId>2e6c4d6b-aebb-4493-8bd3-fa2f12cae23e</xr:TypeId>
-				<xr:ValueId>6865a733-e0f5-41e4-84e3-c1ea858c2d8a</xr:ValueId>
+				<xr:TypeId>d3d30842-7a43-4c2e-9f11-a7a100d51642</xr:TypeId>
+				<xr:ValueId>d713843e-87dd-44b7-9ff6-5d5d051830ed</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -58,7 +58,7 @@
 			<FullTextSearch>Use</FullTextSearch>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="6d4e6147-51cb-493e-8e40-ece6cbc43b9f">
+			<Attribute uuid="68fc1de1-85db-4bb3-a2bb-27be58c276cd">
 				<Properties>
 					<Name>Поставщик</Name>
 					<Synonym>
@@ -77,7 +77,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="aa15f9d1-2cbb-44c2-b277-2257fdbc2702">
+			<Attribute uuid="ae672770-99e3-46f4-9d8f-795b696529e8">
 				<Properties>
 					<Name>Ответственный</Name>
 					<Synonym>
@@ -92,7 +92,7 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="7d48ad43-7ba6-4291-8f4b-0aebc0386087">
+			<Attribute uuid="055fe533-62ad-4809-8de5-bb2c659b4c3b">
 				<Properties>
 					<Name>Сумма</Name>
 					<Synonym>
@@ -112,15 +112,15 @@
 					</Type>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="ad152c04-08a8-4b83-ab5b-8003d718cafe">
+			<TabularSection uuid="f694d86d-5e0a-493a-aa60-e57583e2af67">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПоступлениеТоваров.Материалы" category="TabularSection">
-						<xr:TypeId>3453b8d3-dff3-455f-9f44-a047aeaa1f31</xr:TypeId>
-						<xr:ValueId>59808ea0-5e36-49cf-88da-c45210ad7007</xr:ValueId>
+						<xr:TypeId>3163cb76-c00b-411e-8745-aed9a4733c0f</xr:TypeId>
+						<xr:ValueId>517d28f6-4386-4a8f-b304-8ecae093d4ca</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DocumentTabularSectionRow.ПоступлениеТоваров.Материалы" category="TabularSectionRow">
-						<xr:TypeId>f07fe0da-3644-4b59-a9de-dd5bb41239d5</xr:TypeId>
-						<xr:ValueId>d7a47121-a831-4d87-8f33-7ddffc40ebfc</xr:ValueId>
+						<xr:TypeId>55a3e979-290b-4ea3-8850-e63005fd7c8a</xr:TypeId>
+						<xr:ValueId>d0cbe4a2-aa8b-4183-9311-885cd1e5877c</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -134,7 +134,7 @@
 					<Comment/>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="e5400f72-44af-49ff-ab06-9639ee430c1c">
+					<Attribute uuid="67faafce-fc20-43b8-86f9-02b09e12dca6">
 						<Properties>
 							<Name>Материал</Name>
 							<Synonym>
@@ -149,7 +149,7 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="63aea305-8670-4df4-9a4b-3444de292d56">
+					<Attribute uuid="3e475628-9bb4-447c-a978-ea6833af06d6">
 						<Properties>
 							<Name>Количество</Name>
 							<Synonym>
@@ -169,7 +169,7 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="f60fa89e-274f-4e3a-8839-2b94333057e8">
+					<Attribute uuid="0e14eed3-eaf9-43b3-8f26-a5000fe45327">
 						<Properties>
 							<Name>Цена</Name>
 							<Synonym>
@@ -189,7 +189,7 @@
 							</Type>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="24102f68-2e9b-4eb0-b995-5555c079cece">
+					<Attribute uuid="ec352d11-957d-4bb5-bec5-aaba56e7f0cd">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
