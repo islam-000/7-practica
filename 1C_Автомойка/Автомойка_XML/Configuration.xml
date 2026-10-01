@@ -264,6 +264,12 @@
 			<Report>ВыручкаЗаПериод</Report>
 			<Report>ОстаткиМатериалов</Report>
 			<Report>ЗаказыПоМойщикам</Report>
+			<Report>ПопулярностьУслуг</Report>
+			<Report>АнализКлиентов</Report>
+			<Report>ЗагрузкаБоксов</Report>
+			<Report>ЗаказыПоСтатусам</Report>
+			<Report>ВыручкаПоТипамАвтомобилей</Report>
+			<Report>ДвижениеМатериалов</Report>
 			<InformationRegister>ЦеныУслуг</InformationRegister>
 			<AccumulationRegister>Выручка</AccumulationRegister>
 			<AccumulationRegister>ОстаткиМатериалов</AccumulationRegister>

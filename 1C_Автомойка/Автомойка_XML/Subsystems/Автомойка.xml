@@ -34,6 +34,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ВыручкаЗаПериод</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиМатериалов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗаказыПоМойщикам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ПопулярностьУслуг</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.АнализКлиентов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗагрузкаБоксов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗаказыПоСтатусам</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ВыручкаПоТипамАвтомобилей</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ДвижениеМатериалов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ЦеныУслуг</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Выручка</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиМатериалов</xr:Item>
