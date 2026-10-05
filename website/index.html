@@ -4,13 +4,43 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coca-Cola — больше, чем просто напиток</title>
-  <meta name="description" content="Легендарный газированный напиток: вкусы, подборки, история и устойчивое развитие.">
+  <meta name="description" content="Легендарный газированный напиток: вкусы, подборки, история, идеальная подача и устойчивое развитие.">
+  <meta name="theme-color" content="#E41E2B">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&family=Yellowtail&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
+
+  <!-- ============ PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__cap">
+      <svg viewBox="0 0 100 100"><use href="#cap"/></svg>
+    </div>
+    <div class="preloader__logo">Coca-Cola</div>
+    <div class="preloader__bar"><span></span></div>
+  </div>
+
+  <!-- shared SVG symbols -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <radialGradient id="capG" cx="40%" cy="35%" r="70%">
+        <stop offset="0" stop-color="#ff5a63"/><stop offset=".55" stop-color="#E41E2B"/><stop offset="1" stop-color="#8a0a12"/>
+      </radialGradient>
+      <symbol id="cap" viewBox="0 0 100 100">
+        <path d="M50 2 l6 7 9-3 3 9 9 1-1 9 8 5-4 8 6 7-6 6 3 9-8 4 1 9-9 2-2 9-9-1-5 8-8-5-8 5-5-8-9 1-2-9-9-2 1-9-8-4 3-9-6-6 6-7-4-8 8-5-1-9 9-1 3-9 9 3z" fill="url(#capG)"/>
+        <circle cx="50" cy="50" r="33" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>
+        <text x="50" y="58" text-anchor="middle" font-family="Yellowtail, cursive" font-size="22" fill="#fff" textLength="56" lengthAdjust="spacingAndGlyphs">Coca-Cola</text>
+      </symbol>
+      <symbol id="ribbon" viewBox="0 0 1440 120" preserveAspectRatio="none">
+        <path d="M0 80 C 240 10, 420 120, 720 60 S 1200 0, 1440 50 L1440 70 C 1200 30, 1000 110, 720 85 S 260 40, 0 100 Z"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <div class="progress" id="progress"></div>
 
   <!-- ============ HEADER ============ -->
   <header class="header" id="top">
@@ -19,9 +49,11 @@
       <nav class="nav" id="nav">
         <a href="#flavors">Каталог</a>
         <a href="#about">О нас</a>
+        <a href="#history">История</a>
         <a href="#eco">Устойчивое развитие</a>
-        <a href="#picks">Блог</a>
+        <a href="#moments">Блог</a>
       </nav>
+      <a href="#name" class="header__cta">Бутылка с именем</a>
       <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav">
         <span></span><span></span><span></span>
       </button>
@@ -31,15 +63,50 @@
   <main>
     <!-- ============ HERO ============ -->
     <section class="hero">
-      <div class="hero__bubbles bubbles" data-bubbles="40"></div>
+      <div class="hero__bubbles bubbles" data-bubbles="45"></div>
       <div class="hero__word" aria-hidden="true">Coca-Cola</div>
       <div class="hero__glow"></div>
-      <div class="hero__bottle" data-parallax="0.15">
-        <div data-bottle="classic"></div>
-        <div class="hero__shadow"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__left">
+          <p class="eyebrow">С 1886 года</p>
+          <h1 class="hero__title">Открой<br><span class="script">вкус</span><br>момента</h1>
+          <div class="hero__actions">
+            <a href="#flavors" class="btn btn--light">Выбрать вкус <i class="arrow">→</i></a>
+            <a href="#history" class="btn btn--ghost">Наша история</a>
+          </div>
+        </div>
+
+        <div class="hero__bottle" data-parallax="0.12">
+          <div class="hero__ice ice ice--a"></div>
+          <div class="hero__ice ice ice--b"></div>
+          <div data-bottle="classic"></div>
+          <div class="hero__shadow"></div>
+          <svg class="hero__cap" viewBox="0 0 100 100"><use href="#cap"/></svg>
+        </div>
+
+        <div class="hero__right">
+          <div class="chip"><b>3°C</b><span>идеальная температура</span></div>
+          <div class="chip"><b>200+</b><span>стран мира</span></div>
+          <div class="chip"><b>1,9 млрд</b><span>порций каждый день</span></div>
+        </div>
       </div>
+
+      <svg class="hero__ribbon ribbon-draw" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M-20 90 C 240 10, 420 120, 720 60 S 1200 0, 1460 50"/>
+      </svg>
       <a href="#about" class="hero__scroll" aria-label="Листать вниз"><span></span></a>
     </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Открой счастье</span><i>✦</i><span>Вкус момента</span><i>✦</i><span>С 1886 года</span><i>✦</i>
+        <span>Освежает мир</span><i>✦</i><span>Делись радостью</span><i>✦</i>
+        <span>Открой счастье</span><i>✦</i><span>Вкус момента</span><i>✦</i><span>С 1886 года</span><i>✦</i>
+        <span>Освежает мир</span><i>✦</i><span>Делись радостью</span><i>✦</i>
+      </div>
+    </div>
 
     <!-- ============ PROMO ============ -->
     <section class="promo" id="about">
@@ -47,48 +114,79 @@
       <div class="container promo__inner">
         <div class="promo__text reveal">
           <p class="eyebrow">Легендарный напиток</p>
-          <h1 class="promo__title">
+          <h2 class="promo__title">
             <span class="script">Coca-Cola</span>
             <span class="promo__title-rest">— это больше,<br>чем просто напиток</span>
-          </h1>
+          </h2>
           <p class="promo__desc">
             Coca-Cola — легендарный газированный напиток, который уже больше
             <b class="counter" data-to="130">0</b> лет объединяет людей по всему миру.
             Это уникальный вкус, ставший символом радости, дружбы и ярких моментов.
           </p>
+          <ul class="promo__list">
+            <li><span class="dot"></span>Секретная формула, которую знают единицы</li>
+            <li><span class="dot"></span>Узнаваемая контурная бутылка с 1915 года</li>
+            <li><span class="dot"></span>Вкус, который не меняется поколениями</li>
+          </ul>
           <a href="#history" class="btn btn--light">О бренде <i class="arrow">→</i></a>
         </div>
         <div class="promo__art reveal" data-parallax="-0.08">
+          <div class="promo__ring"></div>
           <div class="ice ice--1"></div>
           <div class="ice ice--2"></div>
           <div class="ice ice--3"></div>
           <div class="promo__bottle" data-bottle="classic"></div>
           <div class="splash"></div>
+          <div class="sticker">
+            <svg viewBox="0 0 200 200">
+              <defs><path id="circ" d="M100 100 m-78 0 a78 78 0 1 1 156 0 a78 78 0 1 1 -156 0"/></defs>
+              <text font-family="Unbounded, sans-serif" font-size="15" font-weight="700" letter-spacing="4" fill="#fff">
+                <textPath href="#circ">ОРИГИНАЛЬНЫЙ ВКУС • С 1886 ГОДА •</textPath>
+              </text>
+            </svg>
+            <span>№1</span>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ============ NUMBERS ============ -->
+    <section class="numbers">
+      <div class="container numbers__grid">
+        <div class="num reveal"><b><span class="counter" data-to="1886">0</span></b><span>год рождения легенды</span></div>
+        <div class="num reveal"><b><span class="counter" data-to="200">0</span>+</b><span>стран, где нас любят</span></div>
+        <div class="num reveal"><b><span class="counter" data-to="19">0</span><small>,0 млн</small></b><span>бутылок в час по всему миру</span></div>
+        <div class="num reveal"><b><span class="counter" data-to="139">0</span></b><span>лет одной формуле</span></div>
       </div>
     </section>
 
     <!-- ============ FLAVORS ============ -->
     <section class="flavors section" id="flavors">
       <div class="container">
-        <h2 class="h2 reveal">Самые популярные вкусы</h2>
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--red">Каталог</p>
+          <h2 class="h2">Самые популярные вкусы</h2>
+        </div>
         <div class="flavors__grid">
-          <article class="flavor reveal" style="--accent:#E41E2B">
+          <article class="flavor reveal" style="--accent:#E41E2B" data-pick="classic">
+            <span class="flavor__tag">Хит</span>
             <div class="flavor__bottle" data-bottle="classic"></div>
             <h3>Original Taste</h3>
             <p>Классика, знакомая каждому.</p>
           </article>
-          <article class="flavor reveal" style="--accent:#1a1a1a">
+          <article class="flavor reveal" style="--accent:#1a1a1a" data-pick="zero">
+            <span class="flavor__tag flavor__tag--dark">0 сахара</span>
             <div class="flavor__bottle" data-bottle="zero"></div>
             <h3>Zero Sugar</h3>
             <p>Знакомый вкус без сахара.</p>
           </article>
-          <article class="flavor reveal" style="--accent:#8E1238">
+          <article class="flavor reveal" style="--accent:#8E1238" data-pick="cherry">
             <div class="flavor__bottle" data-bottle="cherry"></div>
             <h3>Cherry</h3>
             <p>Классика с вишнёвой нотой.</p>
           </article>
-          <article class="flavor reveal" style="--accent:#D9B88A">
+          <article class="flavor reveal" style="--accent:#D9B88A" data-pick="vanilla">
+            <span class="flavor__tag flavor__tag--cream">Новинка</span>
             <div class="flavor__bottle" data-bottle="vanilla"></div>
             <h3>Vanilla</h3>
             <p>Мягкая классика с ванилью.</p>
@@ -97,8 +195,76 @@
       </div>
     </section>
 
+    <!-- ============ EXPLORER ============ -->
+    <section class="explorer" id="explorer" style="--c:#E41E2B; --c2:#7A0A10">
+      <div class="explorer__bg"></div>
+      <div class="explorer__word" id="exWord" aria-hidden="true">ORIGINAL</div>
+      <div class="container explorer__inner">
+        <div class="explorer__tabs" role="tablist" aria-label="Выбор вкуса">
+          <button role="tab" class="is-active" data-flavor="classic">Original</button>
+          <button role="tab" data-flavor="zero">Zero Sugar</button>
+          <button role="tab" data-flavor="cherry">Cherry</button>
+          <button role="tab" data-flavor="vanilla">Vanilla</button>
+        </div>
+        <div class="explorer__grid">
+          <div class="explorer__info">
+            <p class="eyebrow">Найди свой вкус</p>
+            <h2 class="h2 h2--light" id="exTitle">Original Taste</h2>
+            <p class="explorer__desc" id="exDesc">Тот самый вкус с 1886 года: карамельные ноты, лёгкая пряность и бодрящие пузырьки.</p>
+            <ul class="explorer__notes" id="exNotes"></ul>
+          </div>
+          <div class="explorer__stage">
+            <div class="explorer__halo"></div>
+            <div class="explorer__bottle" id="exBottle" data-bottle="classic"></div>
+            <div class="explorer__bubbles bubbles" data-bubbles="25"></div>
+          </div>
+          <div class="explorer__facts">
+            <p class="explorer__facts-title">На 100 мл</p>
+            <div class="fact"><span>Энергия</span><b id="exKcal">42 ккал</b><i><em id="exKcalBar"></em></i></div>
+            <div class="fact"><span>Сахар</span><b id="exSugar">10,6 г</b><i><em id="exSugarBar"></em></i></div>
+            <div class="fact"><span>Кофеин</span><b id="exCaf">10 мг</b><i><em id="exCafBar"></em></i></div>
+            <a href="#name" class="btn btn--light">Персонализировать <i class="arrow">→</i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ NAME BOTTLE ============ -->
+    <section class="name section" id="name">
+      <div class="container name__grid">
+        <div class="name__stage reveal">
+          <div class="name__confetti" id="confetti"></div>
+          <div class="name__bottle" id="nameBottle" data-bottle="classic" data-name="ТЫ"></div>
+          <div class="name__shadow"></div>
+        </div>
+        <div class="name__form reveal">
+          <p class="eyebrow eyebrow--red">Поделись Coca-Cola</p>
+          <h2 class="h2">Бутылка с&nbsp;твоим&nbsp;именем</h2>
+          <p class="name__desc">Впиши имя друга, выбери цвет этикетки — и бутылка готова. Идеальный повод сказать «спасибо» или просто поднять настроение.</p>
+          <label class="field">
+            <span>Имя на этикетке</span>
+            <input id="nameInput" type="text" maxlength="12" placeholder="Например, Аня" autocomplete="off">
+          </label>
+          <div class="swatches" role="radiogroup" aria-label="Цвет этикетки">
+            <button class="swatch is-active" style="--s:#E41E2B" data-label="classic" aria-label="Красная"></button>
+            <button class="swatch" style="--s:#141414" data-label="zero" aria-label="Чёрная"></button>
+            <button class="swatch" style="--s:#8E1238" data-label="cherry" aria-label="Вишнёвая"></button>
+            <button class="swatch" style="--s:#E9D3AE" data-label="vanilla" aria-label="Ванильная"></button>
+          </div>
+          <div class="name__chips">
+            <button class="tag" data-name="Маме">Маме</button>
+            <button class="tag" data-name="Другу">Другу</button>
+            <button class="tag" data-name="Лучшей">Лучшей</button>
+            <button class="tag" data-name="Команде">Команде</button>
+          </div>
+          <button class="btn" id="nameShare">Готово, хочу такую! <i class="arrow">✦</i></button>
+        </div>
+      </div>
+    </section>
+
     <!-- ============ PICKS ============ -->
     <section class="picks section" id="picks">
+      <svg class="picks__ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
       <div class="container">
         <div class="picks__head reveal">
           <h2 class="h2 h2--light">То, что цепляет</h2>
@@ -112,6 +278,7 @@
               </div>
             </div>
             <div class="card__body">
+              <span class="card__kicker">Новинка</span>
               <h3>Обновлённый вкус</h3>
               <a href="#flavors" class="btn btn--sm">Подробнее</a>
             </div>
@@ -122,8 +289,9 @@
               <div class="card__art card__art--single"><div data-bottle="classic"></div></div>
             </div>
             <div class="card__body">
+              <span class="card__kicker">Гид</span>
               <h3>Топ-5 мест для фото с Coca-Cola</h3>
-              <a href="#picks" class="btn btn--sm">Подробнее</a>
+              <a href="#moments" class="btn btn--sm">Подробнее</a>
             </div>
           </article>
           <article class="card reveal">
@@ -132,6 +300,7 @@
               <div class="card__art"><div data-bottle="classic"></div><div data-bottle="classic"></div></div>
             </div>
             <div class="card__body">
+              <span class="card__kicker">Акция</span>
               <h3>Акция: больше вкуса</h3>
               <a href="#picks" class="btn btn--sm">Подробнее</a>
             </div>
@@ -143,6 +312,7 @@
               </div>
             </div>
             <div class="card__body">
+              <span class="card__kicker">Сезон</span>
               <h3>Набор для лета</h3>
               <a href="#picks" class="btn btn--sm">Подробнее</a>
             </div>
@@ -160,18 +330,21 @@
             <div class="cooler__body">
               <span class="cooler__drink">Drink</span>
               <span class="script cooler__logo">Coca-Cola</span>
+              <span class="cooler__sub">Ice cold</span>
             </div>
           </div>
           <span class="history__year">1886</span>
+          <span class="history__stamp">Est. Atlanta</span>
         </div>
         <div class="history__text reveal">
+          <p class="eyebrow eyebrow--red">С 1886 года</p>
           <h2 class="h2">История, которая объединяет</h2>
           <p>
             Всё началось в 1886 году с одного напитка, который со временем стал
             символом целой эпохи. Coca-Cola прошла долгий путь, сохранив свой
             уникальный вкус и способность дарить хорошее настроение людям по всему миру.
           </p>
-          <a href="#history" class="btn btn--outline">Ознакомиться <i class="arrow">↗</i></a>
+          <a href="#eras" class="btn btn--outline">Ознакомиться <i class="arrow">↗</i></a>
         </div>
         <div class="history__lineup reveal" data-photo="assets/lineup.jpg">
           <div data-bottle="v1"></div>
@@ -183,17 +356,102 @@
           <div data-bottle="classic"></div>
         </div>
       </div>
-      <div class="timeline container reveal">
-        <div class="timeline__item"><b>1886</b><span>Первый стакан в аптеке Атланты</span></div>
-        <div class="timeline__item"><b>1915</b><span>Рождение культовой контурной бутылки</span></div>
-        <div class="timeline__item"><b>1931</b><span>Тот самый новогодний Санта</span></div>
-        <div class="timeline__item"><b>Сегодня</b><span>Более 200 стран и миллионы улыбок</span></div>
+
+      <!-- eras carousel -->
+      <div class="eras" id="eras">
+        <div class="container eras__head reveal">
+          <h3 class="h3">Эпохи одной легенды</h3>
+          <div class="eras__nav">
+            <button class="round" id="erasPrev" aria-label="Назад">←</button>
+            <button class="round" id="erasNext" aria-label="Вперёд">→</button>
+          </div>
+        </div>
+        <div class="eras__track" id="erasTrack">
+          <article class="era era--1">
+            <div class="era__art"><div data-bottle="v1"></div></div>
+            <b>1886</b><h4>Первый стакан</h4>
+            <p>Фармацевт Джон Пембертон смешивает сироп в аптеке Атланты. Пять центов за стакан.</p>
+          </article>
+          <article class="era era--2">
+            <div class="era__art"><div data-bottle="v2"></div></div>
+            <b>1915</b><h4>Контурная бутылка</h4>
+            <p>Форму, которую узнают даже на ощупь и в темноте, создают по образу какао-боба.</p>
+          </article>
+          <article class="era era--3">
+            <div class="era__art era__art--santa"><div data-bottle="v4"></div></div>
+            <b>1931</b><h4>Тот самый Санта</h4>
+            <p>Художник Хэддон Сандблом рисует доброго Санту в красном — образ, ставший классикой.</p>
+          </article>
+          <article class="era era--4">
+            <div class="era__art"><div data-bottle="v5"></div></div>
+            <b>1971</b><h4>Песня на холме</h4>
+            <p>Реклама «I’d like to buy the world a Coke» объединяет людей из разных стран.</p>
+          </article>
+          <article class="era era--5">
+            <div class="era__art"><div data-bottle="zero"></div></div>
+            <b>2005</b><h4>Zero Sugar</h4>
+            <p>Тот же любимый вкус — без сахара. Новая глава классики.</p>
+          </article>
+          <article class="era era--6">
+            <div class="era__art"><div data-bottle="classic"></div><div data-bottle="vanilla"></div></div>
+            <b>Сегодня</b><h4>200+ стран</h4>
+            <p>Миллионы улыбок каждый день и курс на полностью перерабатываемую упаковку.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVE ============ -->
+    <section class="serve section" id="serve">
+      <div class="container serve__grid">
+        <div class="serve__glass reveal" aria-hidden="true">
+          <div class="glass">
+            <div class="glass__liquid">
+              <div class="glass__fizz bubbles" data-bubbles="30"></div>
+              <div class="glass__cube glass__cube--1"></div>
+              <div class="glass__cube glass__cube--2"></div>
+              <div class="glass__cube glass__cube--3"></div>
+            </div>
+            <div class="glass__lemon"></div>
+            <div class="glass__straw"></div>
+            <div class="glass__shine"></div>
+          </div>
+          <div class="glass__plate"></div>
+        </div>
+        <div class="serve__text">
+          <div class="reveal">
+            <p class="eyebrow eyebrow--red">Ритуал</p>
+            <h2 class="h2">Идеальная подача</h2>
+            <p class="serve__lead">Три простых шага, чтобы каждый глоток был таким, каким его задумали.</p>
+          </div>
+          <ol class="steps">
+            <li class="step reveal">
+              <span class="step__icon">
+                <svg viewBox="0 0 48 48"><rect x="19" y="4" width="10" height="28" rx="5" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="24" cy="36" r="8" fill="currentColor"/><rect x="22.5" y="14" width="3" height="20" fill="currentColor"/></svg>
+              </span>
+              <div><h4>Охлади до 3°C</h4><p>Именно при этой температуре вкус и пузырьки раскрываются ярче всего.</p></div>
+            </li>
+            <li class="step reveal">
+              <span class="step__icon">
+                <svg viewBox="0 0 48 48"><path d="M10 8h28l-4 34H14z" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/><rect x="16" y="20" width="8" height="8" rx="2" fill="currentColor" transform="rotate(15 20 24)"/><rect x="25" y="26" width="7" height="7" rx="2" fill="currentColor" transform="rotate(-12 28 30)"/></svg>
+              </span>
+              <div><h4>Стакан со льдом</h4><p>Наполни стакан льдом наполовину и наливай по стенке, сохраняя газ.</p></div>
+            </li>
+            <li class="step reveal">
+              <span class="step__icon">
+                <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="17" fill="none" stroke="currentColor" stroke-width="3"/><g stroke="currentColor" stroke-width="2.5"><path d="M24 9v30M9 24h30M13 13l22 22M35 13L13 35"/></g></svg>
+              </span>
+              <div><h4>Долька лимона</h4><p>Финальный штрих: свежая цитрусовая нота и красивая подача.</p></div>
+            </li>
+          </ol>
+        </div>
       </div>
     </section>
 
     <!-- ============ ECO ============ -->
     <section class="eco" id="eco" data-photo="assets/eco.jpg">
       <div class="eco__bokeh"></div>
+      <div class="eco__leaves" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
       <div class="eco__sprout" aria-hidden="true">
         <svg viewBox="0 0 400 300">
           <ellipse cx="200" cy="268" rx="150" ry="30" fill="#2b1a10"/>
@@ -206,6 +464,7 @@
         </svg>
       </div>
       <div class="container eco__inner reveal">
+        <p class="eyebrow">Мир без отходов</p>
         <h2 class="h2 h2--light">Устойчивое развитие</h2>
         <p>
           Будущее складывается из решений, которые мы принимаем каждый день.
@@ -256,22 +515,100 @@
           </svg>
         </div>
       </div>
+
+      <div class="container">
+        <div class="cycle reveal">
+          <div class="cycle__ring" aria-hidden="true"></div>
+          <div class="cycle__step"><b>01</b><h4>Собираем</h4><p>Пункты приёма и фандоматы в городах</p></div>
+          <div class="cycle__step"><b>02</b><h4>Сортируем</h4><p>Пластик, стекло и алюминий — отдельно</p></div>
+          <div class="cycle__step"><b>03</b><h4>Перерабатываем</h4><p>Чистые гранулы для новой упаковки</p></div>
+          <div class="cycle__step"><b>04</b><h4>Снова в руках</h4><p>Новая бутылка — тот же любимый вкус</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MOMENTS ============ -->
+    <section class="moments section" id="moments">
+      <div class="container">
+        <div class="section-head section-head--row reveal">
+          <div>
+            <p class="eyebrow eyebrow--red">#ВкусМомента</p>
+            <h2 class="h2">Моменты, которыми делятся</h2>
+          </div>
+          <p class="section-head__note">Отмечай свои фото хэштегом — лучшие попадут в нашу ленту.</p>
+        </div>
+        <div class="moments__grid">
+          <figure class="moment moment--a reveal" data-photo="assets/moment-1.jpg">
+            <div class="moment__art"><div class="moment__sun"></div><div data-bottle="classic"></div></div>
+            <figcaption><b>Закат на крыше</b><span>@masha.summer</span></figcaption>
+          </figure>
+          <figure class="moment moment--b reveal" data-photo="assets/moment-2.jpg">
+            <div class="moment__art moment__art--stars"><div data-bottle="zero"></div><div data-bottle="classic"></div></div>
+            <figcaption><b>Ночь кино</b><span>@kino_club</span></figcaption>
+          </figure>
+          <figure class="moment moment--c reveal" data-photo="assets/moment-3.jpg">
+            <div class="moment__art"><div data-bottle="cherry"></div></div>
+            <figcaption><b>Вишнёвое настроение</b><span>@lera.art</span></figcaption>
+          </figure>
+          <figure class="moment moment--d reveal" data-photo="assets/moment-4.jpg">
+            <div class="moment__art moment__art--waves"><div data-bottle="classic"></div><div data-bottle="vanilla"></div><div data-bottle="classic"></div></div>
+            <figcaption><b>Пикник у моря</b><span>@friends.trip</span></figcaption>
+          </figure>
+          <figure class="moment moment--e reveal" data-photo="assets/moment-5.jpg">
+            <div class="moment__art moment__art--snow"><div data-bottle="v5"></div></div>
+            <figcaption><b>Праздник к нам приходит</b><span>@winter.mood</span></figcaption>
+          </figure>
+          <blockquote class="moment moment--quote reveal">
+            <p>«Coca-Cola — это вкус лета, который можно открыть в любой день года»</p>
+            <cite>— из отзывов нашего сообщества</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SUBSCRIBE ============ -->
+    <section class="subscribe">
+      <div class="subscribe__bubbles bubbles" data-bubbles="30"></div>
+      <div class="container subscribe__inner">
+        <svg class="subscribe__cap" viewBox="0 0 100 100" aria-hidden="true"><use href="#cap"/></svg>
+        <div class="subscribe__text reveal">
+          <h2 class="h2 h2--light">Будь первым, кто откроет новинку</h2>
+          <p>Новые вкусы, лимитированные выпуски и секретные акции — раз в месяц, без спама.</p>
+        </div>
+        <form class="subscribe__form reveal" id="subForm" novalidate>
+          <input type="email" id="subEmail" placeholder="Твой e-mail" aria-label="E-mail" required>
+          <button class="btn btn--light" type="submit">Подписаться <i class="arrow">→</i></button>
+        </form>
+      </div>
     </section>
   </main>
 
   <!-- ============ FOOTER ============ -->
   <footer class="footer">
-    <div class="container footer__inner">
-      <a href="#top" class="logo logo--lg">Coca-Cola</a>
-      <nav class="footer__nav">
-        <a href="#flavors">Каталог</a>
-        <a href="#about">О нас</a>
-        <a href="#eco">Устойчивое развитие</a>
-        <a href="#picks">Блог</a>
-      </nav>
+    <svg class="footer__ribbon" aria-hidden="true"><use href="#ribbon"/></svg>
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#top" class="logo logo--lg">Coca-Cola</a>
+          <p>Открывай счастье каждый день.</p>
+          <div class="socials">
+            <a href="#top" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M21.5 4.3 2.9 11.5c-1 .4-1 1.3-.1 1.6l4.7 1.5 1.8 5.6c.2.6.9.8 1.4.4l2.6-2.1 4.9 3.6c.6.4 1.4.1 1.6-.6l3.2-15.4c.2-1-.7-1.8-1.5-1.4zM9.6 14.4l8.6-7.4-6.8 8.6-.3 3.3z"/></svg></a>
+            <a href="#top" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.5 7.2a2.8 2.8 0 0 0-2-2C18.8 4.7 12 4.7 12 4.7s-6.8 0-8.5.5a2.8 2.8 0 0 0-2 2A29 29 0 0 0 1 12a29 29 0 0 0 .5 4.8 2.8 2.8 0 0 0 2 2c1.7.5 8.5.5 8.5.5s6.8 0 8.5-.5a2.8 2.8 0 0 0 2-2A29 29 0 0 0 23 12a29 29 0 0 0-.5-4.8zM9.8 15.1V8.9l5.6 3.1z"/></svg></a>
+            <a href="#top" aria-label="Фото"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.3-3.3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+          </div>
+        </div>
+        <nav class="footer__col"><h5>Продукты</h5><a href="#flavors">Original Taste</a><a href="#flavors">Zero Sugar</a><a href="#flavors">Cherry</a><a href="#flavors">Vanilla</a></nav>
+        <nav class="footer__col"><h5>О нас</h5><a href="#about">О бренде</a><a href="#history">История</a><a href="#eco">Устойчивое развитие</a><a href="#moments">Блог</a></nav>
+        <nav class="footer__col"><h5>Сервис</h5><a href="#name">Бутылка с именем</a><a href="#serve">Идеальная подача</a><a href="#picks">Акции</a><a href="#top">Контакты</a></nav>
+      </div>
       <p class="footer__copy">© <span id="year"></span> Учебный проект. Все товарные знаки принадлежат их правообладателям.</p>
     </div>
   </footer>
+
+  <button class="totop" id="totop" aria-label="Наверх">
+    <svg viewBox="0 0 100 100"><use href="#cap"/></svg>
+  </button>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script src="js/main.js"></script>
 </body>
