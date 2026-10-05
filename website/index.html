@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coca-Cola — больше, чем просто напиток</title>
+  <meta name="description" content="Легендарный газированный напиток: вкусы, подборки, история и устойчивое развитие.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700&family=Yellowtail&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo" aria-label="Coca-Cola, на главную">Coca-Cola</a>
+      <nav class="nav" id="nav">
+        <a href="#flavors">Каталог</a>
+        <a href="#about">О нас</a>
+        <a href="#eco">Устойчивое развитие</a>
+        <a href="#picks">Блог</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__bubbles bubbles" data-bubbles="40"></div>
+      <div class="hero__word" aria-hidden="true">Coca-Cola</div>
+      <div class="hero__glow"></div>
+      <div class="hero__bottle" data-parallax="0.15">
+        <div data-bottle="classic"></div>
+        <div class="hero__shadow"></div>
+      </div>
+      <a href="#about" class="hero__scroll" aria-label="Листать вниз"><span></span></a>
+    </section>
+
+    <!-- ============ PROMO ============ -->
+    <section class="promo" id="about">
+      <div class="promo__bubbles bubbles" data-bubbles="60"></div>
+      <div class="container promo__inner">
+        <div class="promo__text reveal">
+          <p class="eyebrow">Легендарный напиток</p>
+          <h1 class="promo__title">
+            <span class="script">Coca-Cola</span>
+            <span class="promo__title-rest">— это больше,<br>чем просто напиток</span>
+          </h1>
+          <p class="promo__desc">
+            Coca-Cola — легендарный газированный напиток, который уже больше
+            <b class="counter" data-to="130">0</b> лет объединяет людей по всему миру.
+            Это уникальный вкус, ставший символом радости, дружбы и ярких моментов.
+          </p>
+          <a href="#history" class="btn btn--light">О бренде <i class="arrow">→</i></a>
+        </div>
+        <div class="promo__art reveal" data-parallax="-0.08">
+          <div class="ice ice--1"></div>
+          <div class="ice ice--2"></div>
+          <div class="ice ice--3"></div>
+          <div class="promo__bottle" data-bottle="classic"></div>
+          <div class="splash"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FLAVORS ============ -->
+    <section class="flavors section" id="flavors">
+      <div class="container">
+        <h2 class="h2 reveal">Самые популярные вкусы</h2>
+        <div class="flavors__grid">
+          <article class="flavor reveal" style="--accent:#E41E2B">
+            <div class="flavor__bottle" data-bottle="classic"></div>
+            <h3>Original Taste</h3>
+            <p>Классика, знакомая каждому.</p>
+          </article>
+          <article class="flavor reveal" style="--accent:#1a1a1a">
+            <div class="flavor__bottle" data-bottle="zero"></div>
+            <h3>Zero Sugar</h3>
+            <p>Знакомый вкус без сахара.</p>
+          </article>
+          <article class="flavor reveal" style="--accent:#8E1238">
+            <div class="flavor__bottle" data-bottle="cherry"></div>
+            <h3>Cherry</h3>
+            <p>Классика с вишнёвой нотой.</p>
+          </article>
+          <article class="flavor reveal" style="--accent:#D9B88A">
+            <div class="flavor__bottle" data-bottle="vanilla"></div>
+            <h3>Vanilla</h3>
+            <p>Мягкая классика с ванилью.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PICKS ============ -->
+    <section class="picks section" id="picks">
+      <div class="container">
+        <div class="picks__head reveal">
+          <h2 class="h2 h2--light">То, что цепляет</h2>
+          <p>Готовые подборки, новые вкусы и особые предложения, которые стоит попробовать.</p>
+        </div>
+        <div class="picks__grid">
+          <article class="card reveal">
+            <div class="card__media card__media--1" data-photo="assets/pick-1.jpg">
+              <div class="card__art">
+                <div data-bottle="classic"></div><div data-bottle="zero"></div><div data-bottle="cherry"></div>
+              </div>
+            </div>
+            <div class="card__body">
+              <h3>Обновлённый вкус</h3>
+              <a href="#flavors" class="btn btn--sm">Подробнее</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card__media card__media--2" data-photo="assets/pick-2.jpg">
+              <div class="card__sun"></div>
+              <div class="card__art card__art--single"><div data-bottle="classic"></div></div>
+            </div>
+            <div class="card__body">
+              <h3>Топ-5 мест для фото с Coca-Cola</h3>
+              <a href="#picks" class="btn btn--sm">Подробнее</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card__media card__media--3" data-photo="assets/pick-3.jpg">
+              <div class="card__badge">-20%</div>
+              <div class="card__art"><div data-bottle="classic"></div><div data-bottle="classic"></div></div>
+            </div>
+            <div class="card__body">
+              <h3>Акция: больше вкуса</h3>
+              <a href="#picks" class="btn btn--sm">Подробнее</a>
+            </div>
+          </article>
+          <article class="card reveal">
+            <div class="card__media card__media--4" data-photo="assets/pick-4.jpg">
+              <div class="card__art">
+                <div data-bottle="vanilla"></div><div data-bottle="classic"></div><div data-bottle="zero"></div><div data-bottle="cherry"></div>
+              </div>
+            </div>
+            <div class="card__body">
+              <h3>Набор для лета</h3>
+              <a href="#picks" class="btn btn--sm">Подробнее</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HISTORY ============ -->
+    <section class="history section" id="history">
+      <div class="container history__grid">
+        <div class="history__photo reveal" data-photo="assets/history.jpg">
+          <div class="cooler" aria-hidden="true">
+            <div class="cooler__lid"></div>
+            <div class="cooler__body">
+              <span class="cooler__drink">Drink</span>
+              <span class="script cooler__logo">Coca-Cola</span>
+            </div>
+          </div>
+          <span class="history__year">1886</span>
+        </div>
+        <div class="history__text reveal">
+          <h2 class="h2">История, которая объединяет</h2>
+          <p>
+            Всё началось в 1886 году с одного напитка, который со временем стал
+            символом целой эпохи. Coca-Cola прошла долгий путь, сохранив свой
+            уникальный вкус и способность дарить хорошее настроение людям по всему миру.
+          </p>
+          <a href="#history" class="btn btn--outline">Ознакомиться <i class="arrow">↗</i></a>
+        </div>
+        <div class="history__lineup reveal" data-photo="assets/lineup.jpg">
+          <div data-bottle="v1"></div>
+          <div data-bottle="v2"></div>
+          <div data-bottle="v3"></div>
+          <div data-bottle="v4"></div>
+          <div data-bottle="v5"></div>
+          <div data-bottle="classic"></div>
+          <div data-bottle="classic"></div>
+        </div>
+      </div>
+      <div class="timeline container reveal">
+        <div class="timeline__item"><b>1886</b><span>Первый стакан в аптеке Атланты</span></div>
+        <div class="timeline__item"><b>1915</b><span>Рождение культовой контурной бутылки</span></div>
+        <div class="timeline__item"><b>1931</b><span>Тот самый новогодний Санта</span></div>
+        <div class="timeline__item"><b>Сегодня</b><span>Более 200 стран и миллионы улыбок</span></div>
+      </div>
+    </section>
+
+    <!-- ============ ECO ============ -->
+    <section class="eco" id="eco" data-photo="assets/eco.jpg">
+      <div class="eco__bokeh"></div>
+      <div class="eco__sprout" aria-hidden="true">
+        <svg viewBox="0 0 400 300">
+          <ellipse cx="200" cy="268" rx="150" ry="30" fill="#2b1a10"/>
+          <ellipse cx="200" cy="258" rx="120" ry="22" fill="#3d2616"/>
+          <path class="stem" d="M200 258 C198 220 204 190 200 140" stroke="#6fae3f" stroke-width="7" fill="none" stroke-linecap="round"/>
+          <path class="leaf leaf--l" d="M200 175 C160 175 120 150 108 112 C150 108 190 130 200 175Z" fill="#7cc24a"/>
+          <path class="leaf leaf--r" d="M201 150 C240 145 280 115 290 72 C245 72 205 100 201 150Z" fill="#8fd35a"/>
+          <path d="M200 175 C170 160 140 140 118 116" stroke="#5b9a33" stroke-width="2" fill="none"/>
+          <path d="M201 150 C230 130 262 105 284 78" stroke="#5b9a33" stroke-width="2" fill="none"/>
+        </svg>
+      </div>
+      <div class="container eco__inner reveal">
+        <h2 class="h2 h2--light">Устойчивое развитие</h2>
+        <p>
+          Будущее складывается из решений, которые мы принимаем каждый день.
+          Ответственное отношение к упаковке, ресурсам и окружающей среде —
+          важная часть разговора о том, каким мы хотим видеть наш мир завтра.
+        </p>
+        <div class="eco__stats">
+          <div><b class="counter" data-to="100">0</b><span>упаковки пригодно к переработке</span></div>
+          <div><b class="counter" data-to="50">0</b><span>вторсырья в бутылках — наша цель</span></div>
+          <div><b class="counter" data-to="200">0</b><span>стран, где мы бережём воду</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RECYCLE ============ -->
+    <section class="recycle section">
+      <div class="container recycle__grid">
+        <div class="recycle__text reveal">
+          <p>
+            Узнай больше о подходах к переработке упаковки, сохранению водных
+            ресурсов и экологическим инициативам.
+          </p>
+          <a href="#eco" class="btn btn--outline">Подробнее об устойчивом развитии <i class="arrow">→</i></a>
+        </div>
+        <div class="recycle__media reveal" data-photo="assets/recycle.jpg">
+          <svg viewBox="0 0 400 300" aria-hidden="true">
+            <defs>
+              <linearGradient id="binG" x1="0" x2="1">
+                <stop offset="0" stop-color="#1f6b3a"/><stop offset=".5" stop-color="#2f8f50"/><stop offset="1" stop-color="#1a5a31"/>
+              </linearGradient>
+              <linearGradient id="petG" x1="0" x2="1">
+                <stop offset="0" stop-color="#cfe9f7" stop-opacity=".9"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".6"/><stop offset="1" stop-color="#a9d3ec" stop-opacity=".9"/>
+              </linearGradient>
+            </defs>
+            <g class="pets">
+              <g transform="translate(110 40) rotate(-25)"><rect width="34" height="110" rx="14" fill="url(#petG)"/><rect x="10" y="-12" width="14" height="14" rx="3" fill="#2a7fd4"/></g>
+              <g transform="translate(170 25) rotate(8)"><rect width="34" height="110" rx="14" fill="url(#petG)"/><rect x="10" y="-12" width="14" height="14" rx="3" fill="#e41e2b"/></g>
+              <g transform="translate(225 45) rotate(30)"><rect width="34" height="110" rx="14" fill="url(#petG)"/><rect x="10" y="-12" width="14" height="14" rx="3" fill="#2a7fd4"/></g>
+              <g transform="translate(140 60) rotate(-60)"><rect width="30" height="100" rx="12" fill="url(#petG)"/></g>
+            </g>
+            <path d="M80 130 H320 L300 290 H100 Z" fill="url(#binG)"/>
+            <rect x="70" y="118" width="260" height="20" rx="6" fill="#246f41"/>
+            <g transform="translate(200 212)" fill="none" stroke="#d6f5df" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M-8 -36 L8 -36 L22 -12"/><path d="M14 -16 L22 -12 L26 -21"/>
+              <path d="M30 0 L22 14 L-6 14"/><path d="M0 7 L-6 14 L0 21"/>
+              <path d="M-30 6 L-38 -8 L-24 -30"/><path d="M-33 -26 L-24 -30 L-20 -22"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo logo--lg">Coca-Cola</a>
+      <nav class="footer__nav">
+        <a href="#flavors">Каталог</a>
+        <a href="#about">О нас</a>
+        <a href="#eco">Устойчивое развитие</a>
+        <a href="#picks">Блог</a>
+      </nav>
+      <p class="footer__copy">© <span id="year"></span> Учебный проект. Все товарные знаки принадлежат их правообладателям.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
