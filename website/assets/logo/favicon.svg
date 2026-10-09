@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Coca-Cola — эмблема">
+<title>Coca-Cola — эмблема</title>
+  <defs>
+    <radialGradient id="mbg" cx="38%" cy="32%" r="75%">
+      <stop offset="0" stop-color="#FF4A55"/><stop offset=".55" stop-color="#E41E2B"/><stop offset="1" stop-color="#7A0A10"/>
+    </radialGradient>
+    <clipPath id="mclip"><circle cx="120" cy="120" r="116"/></clipPath>
+    <clipPath id="mbottle"><path d="M46 20 L74 20 C74 60 80 90 88 120 C96 150 98 172 94 200 C90 225 86 240 88 262 C92 292 98 312 98 342 L98 384 C98 393 92 398 84 398 L36 398 C28 398 22 393 22 384 L22 342 C22 312 28 292 32 262 C34 240 30 225 26 200 C22 172 24 150 32 120 C40 90 46 60 46 20 Z"/></clipPath>
+  </defs>
+  <circle cx="120" cy="120" r="116" fill="url(#mbg)"/>
+  <g clip-path="url(#mclip)">
+    <circle cx="120" cy="120" r="103" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="2"/>
+    <!-- bubbles -->
+    <g fill="#fff">
+      <circle cx="162" cy="92" r="6"/><circle cx="176" cy="66" r="4.2"/><circle cx="160" cy="48" r="3"/>
+      <circle cx="78" cy="70" r="3.4"/><circle cx="70" cy="96" r="2.4"/>
+    </g>
+    <!-- bottle -->
+    <g transform="translate(118 116) rotate(-14) scale(.5) translate(-60 -200)">
+      <path d="M46 20 L74 20 C74 60 80 90 88 120 C96 150 98 172 94 200 C90 225 86 240 88 262 C92 292 98 312 98 342 L98 384 C98 393 92 398 84 398 L36 398 C28 398 22 393 22 384 L22 342 C22 312 28 292 32 262 C34 240 30 225 26 200 C22 172 24 150 32 120 C40 90 46 60 46 20 Z" fill="#fff"/>
+      <g clip-path="url(#mbottle)">
+        <rect x="0" y="206" width="120" height="74" fill="#E41E2B"/>
+        <rect x="0" y="236" width="120" height="8" fill="#fff" opacity=".9"/>
+      </g>
+    </g>
+    <!-- ribbon (outlined in background colour so it interlaces with the bottle) -->
+    <path d="M-10 168 C 40 132, 90 196, 140 160 S 220 120, 260 140 L 260 158 C 220 138, 190 186, 140 182 S 40 160, -10 196 Z"
+          fill="#fff" stroke="url(#mbg)" stroke-width="5" stroke-linejoin="round"/>
+  </g>
+</svg>
